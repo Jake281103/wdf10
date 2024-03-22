@@ -1,0 +1,80 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Object Literals (Javascript Object)</title>
+        </head>
+        <body>
+            
+            <script type="text/javascript">
+
+                let students = {
+                    firstname: 'Honey',
+                    middlename: "Nway",
+                    lastname: 'Oo',
+                    age: 22
+                }
+
+                console.log(students);
+                console.info(students); // equal with console.log()
+                console.table(students)
+                console.log(typeof(students)); //object
+
+                console.log(students.firstname);
+                console.log(students.middlename);
+                console.log(students.lastname);
+                console.log(students.age);
+
+                console.log(typeof(students.firstname)); //string
+                console.log(typeof(students.age)); //number
+
+                
+                const persons = {
+                    firstname: 'kyaw kyaw',
+                    lastname: 'htay lwin',
+                    age: 43,
+                    single: false,
+                    email: 'kyawkyaw@gmail.com',
+
+                    address: {
+                        street: "63st",
+                        township: "alone"
+                    },
+
+                    hometown: {
+                        city: "Yangon"
+                    },
+
+                    hobbies: ["coding", "playing", "swimming", "music", "eating"]
+                };
+
+                console.log(persons);
+                console.table(persons);
+
+                console.log(persons.firstname);
+                console.log(persons.age);
+                console.log(persons.single);
+                console.log(typeof(persons.single)); //boolean
+
+                console.log(persons.hometown);
+                console.log(persons.hometown.city);
+
+                console.log(persons.address);
+                console.log(persons.address.street);
+                console.log(persons.address.township);
+
+                console.log(persons.hobbies);
+                console.log(persons.hobbies[2]); //swimming
+                console.log(persons.hobbies[4]); //eating
+                console.log(persons.hobbies.length); //5
+                console.log(persons.hobbies[5-1]); //eating
+                console.log(persons.hobbies[persons.hobbies.length-1]); //eating
+
+
+
+            </script>
+
+
+        </body>
+    </html>
+
+    

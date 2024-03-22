@@ -1,0 +1,30 @@
+/*Single Selector
+*/
+h2{
+	color: blue;
+}
+/*Group Selector(,) */
+h3,h4,h5{
+	color: steelblue;
+	font-size: 20px;
+}
+
+/*ID Selector*/
+#myself{
+	color: red;
+}
+
+#thd,#ygn,i{
+	color: blue;
+}
+
+
+/*Class Selector*/
+
+.phone{
+	color: red;
+}
+
+.fontlg,u{
+	font-size: 30px;
+}

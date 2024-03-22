@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Date and Time</title>
+    </head>
+    <body>
+
+        <div class="footer">
+            <small>Copyright <span id="autoyear">2023</span> Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved.</small>	
+        </div>
+
+        
+        <script type="text/javascript">
+
+            let date = new Date(); //class / object
+            console.log(date);  //Mon Jan 01 2024 20:49:12 GMT+0630 (Myanmar Time)
+            console.log(new Date()); //Mon Jan 01 2024 20:49:12 GMT+0630 (Myanmar Time)
+        
+            // let getdate = new Date().getDate(); // class method
+            let getDate = date.getDate(); // date is defeind in the above
+            console.log(getDate); //date
+        
+            let hour = date.getHours() // Hour only
+            console.log(hour); //hour
+
+            let minute = date.getMinutes() // Minute only
+            console.log(minute); //minute
+
+            let second = date.getSeconds() // Second only
+            console.log(second); //second
+
+            // 1s = 1000ms
+            // 1 jan 1970 > uptonow
+            let time = date.getTime();
+            console.log(time); //1646621352116
+
+            let now = Date.now();
+            console.log(now); //1646621352171
+
+            //array []
+            //index number = 0 (0 to 11)
+            //  0      1       2      3     4      5      6      7      8      9      10     11
+            //['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug','sep', 'oct', 'nov', 'dec'];
+            let month = date.getMonth();
+            console.log(month); //0
+
+            //   0      1      2      3      4      5      6 
+            //['sun', 'mon', 'tue', 'wed', 'thu', 'fri','sat'];
+            let day = date.getDate();
+            console.log(day); //2
+
+            let year = date.getFullYear();
+            console.log(year); //2024
+
+            // Coordinated Universal Time -12 +6:30 -12
+            let utcyear = date.getUTCFullYear();
+            console.log(utcyear); //2024
+
+            //document.getElementById("autoyear").innerText = utcyear;
+            //document.getElementById("autoyear").innerContent = utcyear;
+	        document.getElementById("autoyear").innerHTML = utcyear;
+
+            // m d y hr:m:s
+            let brithday = new Date('7-10-2023'); // Mon Jul 10 2023 00:00:00 GMT+0630 (Myanmar Time)
+                brithday = new Date('8-10-2023 11:30:01'); // Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('Aug 1 2023 11:35:01'); //Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('July 1 2023 11:35:01'); //Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('5/10/2023 11:35:01'); //Thu Aug 10 2023
+            console.log(brithday);
+
+            brithday.setMonth(2); //Fri Mar 10 2023 11:35:01 GMT+0630 (Myanmar Time)
+            brithday.setDate(15); //Wed Mar 15 2023 11:35:01 GMT+0630 (Myanmar Time)
+            brithday.setFullYear(2024); //Wed Mar 15 2024 11:35:01 GMT+063 (Myanmar Time)
+            
+            brithday.setHours(15); //fri Mar 15 2024 15:35:01 GMT+063 (Myanmar Time)
+            brithday.setMinutes(50); //fri Mar 15 2024 15:50:01 GMT+063 (Myanmar Time)
+            brithday.setSeconds(10); //fri Mar 15 2024 15:50:10 GMT+063 (My
+            console.log(brithday);
+            
+
+
+        </script>
+    </body>
+</html>

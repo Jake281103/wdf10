@@ -1,0 +1,119 @@
+.circle1, .circle2, .circle3, .circle4, .circle5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.circle1{
+	background: conic-gradient(yellow, red, blue, green);
+}
+
+.circle5{
+	background: conic-gradient(
+		yellow 40%,
+		 red 0% 30%, 
+		 blue 0% 40%, 
+		 green 
+	);
+}
+
+
+.circles1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.boxone{
+	width: 600px;
+	height: 300px;
+	background: seagreen;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*display: grid;
+	place-items: center;*/
+
+	position: relative;
+}
+
+
+.boxone .div1{
+	width: 300px;
+	height: 300px;
+	background: deepskyblue;
+	color: white;
+
+	border-radius: 50%;
+
+	position: absolute;
+	/*left: 0;
+	top: 0;
+*/
+	z-index: 1;
+}
+
+.boxone .div2{
+	width: 350px;
+	height: 350px;
+	background: darkred;
+	background: conic-gradient(
+		darkred 0% 30%,
+		green 0% 40%,
+		violet 0% 70%,
+		lightyellow 0% 100%
+	);
+
+	border-radius: 50%;
+
+	position: absolute;
+	/*left: 0;
+	top: 0;
+*/}
+
+.pointercontainer{
+    width: 20px;
+    height: 200px;
+    /* background-color: gray; */
+
+    position: absolute;
+    top: -50px;
+
+    z-index: 3;
+
+    animation-name: myani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    transform-origin: bottom;
+}
+
+.pointer{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+
+    display: block;
+}
+
+@keyframes myani{
+     from{
+        transform: rotate(0deg);
+     }
+
+     to{
+        transform: rotate(360deg);
+     }
+
+     /* 0%{
+        transform: rotate(0deg);
+     }
+
+     100%{
+        transform: rotate(-1turn);
+     } */
+}

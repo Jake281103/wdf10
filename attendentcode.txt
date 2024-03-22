@@ -1,0 +1,80 @@
+WDF 101397 (WDF)
+===========
+day 1 - 6IN(thawmaungoo@gmail.com)
+day 2 - gmail.com
+day 3 - 8SS
+day 4 - 9LI
+day 5 - 13LI
+day 7 - 15TB
+day 8 - 16SC
+day 9 - 20CB
+day 10 - 21BT
+day 11 - thawmaungoo@gmail.com
+day 12 - 23CS
+day 13 - blank
+day 14 - 28SH
+day 15 - 29BD
+day 16 - 30BG
+day 17 - 4FT
+day 18 - 6HV
+day 19 - 7CB
+day 20 - 11CT
+day 21 - 12PC
+day 22 - absent (12/13/2023) (record)
+day 23 - absent (12/14/2023) (record)
+day 24 - 18CG (12/18/2023) (record)
+day 25 - 19PA(half) (12/19/2023) (record)
+day 26 - 20NA (12/20/2023) (record)
+day 27 - 21FA (12/21/2023) (record)
+day 28 - 25CB (12/25/2023)
+day 29 - 26CS (12/26/2023)
+day 30 - 27AL (12/27/2023) (Java script)
+day 31 - 28DO (12/28/2023) (Java script)
+day 32 - 1GM (1/1/2024) (Java script)
+day 33 - 2RD (1/2/2024) (Java script)
+day 34 - thawmaungoo@gmail.com(1/3/2024) (Java script)
+day 35 - 8TC (1/8/2024) (Java script) (half)
+day 36 - 9AR (1/9/2024) (Java script)
+day 37 - 10UC (1/10/2023) (Java script)
+day 38 - 11ST (1/11/2023) (java script)
+day 39 - thawmaungoo281103@gmail.com (1/15/2023) (java script)
+day 40 - 16SW (1/16/2024) (java script)
+day 41 - 17VA (1/17/2024) (java script)
+day 42 - 18WH (1/18/2024) (java script)
+day 43 - 22LS (1/22/2024) (java script)
+day 44 - thawmaungoo281103@gmail.com (1/23/2024) (java script)
+day 45 - 24MT (1/24/2024) (java script)
+day 46 - 25AF (1/25/2024) (java script)
+day 47 - 29FT (1/29/2024) (java script)
+day 48 - 30FS (1/30/2024) (java script)
+day 49 - 31CC (1/31/2024) (java script)
+day 50 - 1DO (2/1/2024) (java script)
+day 51 - 5DO (2/5/2024) (java script)
+day 52 - 6QA (2/6/2024) (java script)
+day 53 - 8CE (2/8/2024) (java script)
+day 54 - 12AC (2/12/2024) (java script)
+day 55 - 13AT (2/13/2024) (java script)
+day 56 - 14VD (2/14/2024) (java script)
+day 57 - no attendent code (2/15/2024) (java script)
+day 58 - 19ED (2/19/2024) (java script)
+day 59 - 20JS (2/20/2024) (java script)
+day 60 - 21NG (2/21/2024) (java script)
+day 61 - 22JS (2/22/2024) (java script)
+day 62 - thawmaungoo@gmail.com (2/26/2024) (bootstrap)
+day 63 - 27DD (2/27/2024) (bootstrap)
+day 64 - 28AG (2/28/2024) (bootstrap)
+day 65 - 29FE (2/29/2024) (bootstrap)
+day 66 - 4TL (3/4/2024) (jQuery)
+day 67 - jq (or) 11 (3/5/2024) (project)
+day 68 - 6TM (3/6/2024) (project)
+day 68 - 7PG (3/7/2024) (project)
+day 69 - absent (3/11/2024)
+day 70 - 12FN (3/12/2024) (github)
+
+
+js -> js small app -> json object firebase -> es6 -> react p1 -> react p2 (project) -> node js p1 ->  nodejs p2 (project)
+
+
+
+
+

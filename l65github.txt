@@ -1,0 +1,54 @@
+x=>git
+
+=>One times
+after git install
+git
+git --version           ( git version 2.39.2 )
+
+
+git config --global user.name "Thaw Maung Oo"
+git config user.name
+
+git config --global user.email "thawmaungoo281103@gmail.com"
+ssh-keygen (produce ssh key)
+
+=>SSH (Secure Shell)
+ssh-keygen
+
+ssh -T git@gihub.com (check connect or not / wirte with administrator access)
+
+
+=>github
+(1 project 1 times)
+git init
+git remote add origin "git@github.com:Jake281103/pttsoftware.git"
+
+
+(as to you)
+git status
+git add -A          ( git add*)
+git status
+git commit -m "my first project"
+git status
+git push -u origin master
+
+
+=>Update
+git status
+git add *
+git commit -m "chage title 12/march/2024 22:50"
+git status
+git push -u origin master
+
+=> clone
+git clone "git@github.com:Jake281103/pttsoftware.git" (repository link)
+
+=> pull request
+new folder
+git init
+git remote add origin "git@github.com:Jake281103/pttsoftware.git"
+git pull origin master(or main)
+
+
+
+

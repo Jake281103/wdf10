@@ -1,0 +1,103 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>String Method</title>
+        </head>
+        <body>
+            
+            <script type="text/javascript">
+
+                let firstname = "Mya Hin";
+                let lastname = " Yee Lwin";
+
+                console.log(firstname); //Mya Hin
+                console.log(lastname); //Yee Lwin
+                console.log(firstname, lastname); //
+                console.log(firstname.length); //7
+
+                //Concat(+)
+
+                let fullname = firstname + " " + lastname;
+                console.log(fullname); //Mya Hin Yee Lwin
+
+                // =>string.concat(string)
+                console.log(firstname.concat(lastname)); //Mya Hin Yee Lwin
+                console.log(lastname.concat(firstname)); //Yee Lwin Mya Hin 
+
+
+                //Append (+=)
+
+                let name1 = "Honey Nway";
+                let name2 = "Oo";
+
+                console.log(name1+name2); //Honey NwayOo
+                console.log(name1.concat(name2)); //Honey NwayOo
+                
+                name1 += name2;
+                console.log(name1); //Honey NwayOo
+
+                let num1 = 10;
+                let num2 = 20;
+
+                num1 = num1;
+                console.log(num1); //10
+
+                // num1 = num1+num2;
+                // console.log(num1); //30
+
+                num1 +=num2;
+                console.log(num1); //30
+
+                // String is Character Array is js
+                let myfriend = "Aung Ko Ko";
+
+                console.log(myfriend); //Aung Ko Ko
+                console.log(typeof myfriend); //string
+                console.log(myfriend.length); //10
+
+                console.log(myfriend[0]); //A
+                console.log(myfriend[3]); //g
+                console.log(myfriend[4]); //space
+                console.log(typeof myfriend[3]); //string
+                console.log(myfriend[myfriend.length-1]); //o
+
+                // charAt(index)
+                const nickname = "Aung Kyaw Kyaw";
+                console.log(nickname[5]); // K
+                console.log(nickname.charAt(5)); //K
+                console.log(nickname.charAt(nickname.length-1)); //w
+
+
+                // includes(string) (mainly use in search box)
+                let favcolor = "My fav color is black color";
+                console.log(favcolor.includes("black")); //true
+                console.log(favcolor.includes("red")); //false
+                console.log(favcolor.includes("Black")); //false
+                console.log(favcolor.includes("BLACK")); //false
+                console.log(favcolor.includes("bla")); //true
+                
+                // replace(old, new) (mainly use in replace the value )
+
+                console.log(favcolor.replace("black", "red")); //My fav color is red color
+                console.log(favcolor.replace("Black", "red")); //My fav color is black color
+                console.log(favcolor.replace("BLACK", "red")); //My fav color is black color
+                console.log(favcolor.replace("bla", "red")); //My fav color is red color
+                console.log(favcolor.replace("color", "colour")); //My fav colour is black color
+
+                // substring(start index, length) (Mainly use in showing a few words withou showing the full sentencse)
+                
+                console.log(favcolor.substring(0, 10)+"..."); //My fav col...
+                console.log(favcolor.substring(0,10).concat('--------')); //My fav col--------
+
+
+                //Change cuase (toLowerCase(), toUpperCase()) methods (mainly use in chaning the case of the words)
+
+                console.log(favcolor.toLowerCase()); // my fav color is black color
+                console.log(favcolor.toUpperCase()); // MY FAV COLOR IS BLACK COLOR
+
+
+            </script>
+        </body>
+    </html>
+
+    

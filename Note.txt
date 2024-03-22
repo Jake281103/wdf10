@@ -1,0 +1,4028 @@
+Day-2
+======
+(tage, all tage = html elements)
+
+<html> tage has two parts <head> and <body>
+
+<head> tag has <title> tage to change the tag name of the wesite
+
+<h> is heading tage that has different font size heading tag <h1> tag to <h6>tag
+
+<p> is paragraph tag  [**<p> tag detect one (space) and doesn't detect (enter)**]
+If <p> tag is end, next tag is displayed by (one enter)
+
+<br> tag is enter tag that mean line break and doesn't has **close tag**.
+
+***self closing tag = <br> because it has one tage [ <br/>]***
+
+<b> is bold tag
+<i> is italic tag
+<u> is underline tag
+
+Elements
+=========
+(i) Block Elements (h,p,br)
+(ii) Inline Elements (i,u,b)
+
+--------------------------------------------------------------------------------------------------------------------
+
+Day - 3
+========
+
+<hr/> is underline tag and self closing tag
+
+Commands
+========
+<!-- --> = Single line Commands
+<!-- --> = Multi line Commands
+
+**(command shortcut = control + /)**
+
+<marquee> tag is word animation tag in html
+Attributes of marquee is direction, scrollamount, behavior, width, bgcolor
+
+Attributes ( <marqueen direction="left"> )
+===========
+
+	(i) Default (System Attr)
+	(ii) Custom Attr
+
+attr = 'value'
+
+Value
+	(i)Default value
+	(ii)Custom value
+
+
+<del> is delete tag (html3)
+<strike> is delete tag (html5)
+<address> is address tag that is block element and does not equal with italic tag
+<small> is samall text tag that is inline element
+<span> is not effect tag that is inline element
+
+----------------------------------------------------------------------------
+
+Day 4
+========
+
+Link ( <a> ) - attribute ( href="", **target="_blank"** is to open the link in the new tag) 
+SSL= secure socket layer that can make sure the website
+./ = current (start from here)
+mailto: = keyword for email link
+tel: = keyword for email link
+
+
+(i) Local Link (internal link) (need https:/)
+(ii) Global Link (external link) (filename.file format)
+
+--------------------------------------------------------------------------------
+
+Day 5
+=========
+
+
+<ul> is list tag to list the word
+
+***Unordered List = <ul> <li> </li> </ul>
+
+***Ordered List = <ol> <li> </li> </ol>
+
+***Nested List = <ul>
+			<li>
+				<ol>
+					<li></li>
+				</ol>
+			</li>
+			
+		 </ul>
+
+---------------------------------------------------------------------------------
+
+Day 7
+======
+
+- <img src=""/> is image tag that is self closing tag and inline element
+
+- alt="" is image name attribute that is shown if image is deleted
+
+- width="" , height="" = attribute
+
+- <table> is table tag that is block element and start with row tag <tr> tag
+
+- <tr> is row tag that locate within the <table> tag
+
+- <td> is column tag that locate within the <tr> row tag
+
+- <th> is header column tag and its features are bold andd center
+
+--------------------------------------------------------------------------------
+
+Day 8
+=======
+
+- colspan="2" is attribute of column tag to span the column
+- rowspan="5" is attribute of column tag to span the row
+- <thead> , <tbody> and <tfoot> are diviion tag of the table
+- <div> is division tag that is block element
+- <section> is large divison tag that is block element
+- <header> is large division tag
+- <footer> is large division tag
+
+-----------------------------------------------------------------------------------
+
+Day 9
+======
+
+- id="" is archor link attribute to use id but need ( # ) in anchor tag <a href="#"> 
+
+- <form> is form tag
+- <input/> is self closing tag and inline element and blank space to fill data
+- <label> is inline element that is label tag
+- type="" is type of data in text box and attribute of <input> tag
+	type="text"
+	type="number"
+	type="password"
+	type="radio"
+	type="checkbox"
+	type="date"
+	type="time"
+	type="datetime-local"
+	type="range" that need value=" , min="" and max="" attributes / step="" 	attribute for interval for steps
+
+	type="file" that contain accept="image/*" , capture="user" that work only 	in andriod to open camera
+	
+	type="email"
+	type="hidden" that is used to hide
+	type="button" that is used to create button
+	type="submit"
+	type="reset"
+- if type="radio" and type="checkbox" are used, the value="" attribute is needed to assgin the value in data
+
+- name="" is attribute of input tag for PHP developer
+- id="" is attribute of input tag for CSS and Javascript developer
+- for="" is culser attribute only for <label> tag
+- placeholder="" is attribute for <input> tag that is used for warter mark in text box
+
+------------------------------------------------------------------------------
+
+Day 10
+=======
+
+- <option> tag is used with <select> tag for drop down box
+- if attribute doesn't contain value, it is also calle stand alone attribute.
+- (selected) attribute is standalone attribute and it is only used in option and to see the word at first in the drop down box.
+- (disable) attribute is standalone attribute and is used only for seeing in drop down box.
+- (readonly) attribute is standalone attribute and is used only for reading
+- (checked) attribute is standalone attribute and is used in radio and checkbox.
+
+ Standalone Attributes ( they are only used in at the end ot the tag)
+ ====================
+
+ - selected
+ - disable
+ - readonly
+ - checked
+ - multiple ( that is used in <select> tag for to show all value in drop down box)
+ - hiddle ( that is only used in <input> tag and to hide )
+ - autofocus
+ - required
+
+- <textarea> tag is paragraph tag of the form that can use row="3" attribute to fix the area of the text box
+
+- <button> tag is used to create button
+
+-----------------------------------------------------------------------------------
+
+Day 11
+=======
+
+- action="" attribute of <form> tag is to indicate the path of database
+
+- method="" attribute of <form> tag is method to send data to databasee, have default value "GET", other values are "POST" is method to send directly data to the database through protocol.
+
+- if type="file" value is used in <form> tag, we need to use enctype="" is need to used
+
+- autocomplete="" attribute can be used if value of type="" attribute is text.
+
+- autofocus attribute is standalone attribute that is used to see the cusor in this text box if the form is opened.
+
+- required attribute is used in <input> tag if the data is required to fill
+
+- minlength="" and maxlength="" attributes are used to limit the filled text in text, password.
+
+- min="" and max="" attributes can be used in type="number".
+
+- spellcheck="true/false" is used to check the word
+
+- <fieldsed> and <legend> is used to set the form header
+
+- <iframe> is used if other file or website are wanted to show in the website.
+
+- attributes of <audio> tag  are (controls) and (loop)
+
+-----------------------------------------------------------------------
+
+Day 12
+=======
+
+	HTML
+	------
+
+	tags
+	attributes
+	value
+
+	CSS
+	-----
+	properties
+	values 
+
+	CSS integrate HTML
+	-------------------
+
+	(i) Internal style
+	(ii) Inline style
+	(iii) External style
+
+	attribute="value"
+
+	CSS structure
+	--------------
+
+	selector{
+		property:value;
+	}
+
+- <style> tag is written in the <head> tag and is used to know the css code in the html and type="text/css"attribute is needed to used.
+
+CSS propertities
+=================
+
+- color: white; , color: #6beb34; , color: rgba(151, 35, 103); , color: rgba(27, 183, 217, 0.77); , color: hsla(236, 86%, 53%, 1);
+- font-size: 20px;
+
+fuction
+=======
+
+function(parameter, parameter, parameter, parameter) 
+
+example: rgba(23, 42, 52, 0.8) 
+
+---------------------------------------------------------------------------------
+
+Day - 13
+=========
+
+- <link href="" rel=""/> is html tag is used to link the external css file and is self-closing tag
+
+- rel="stylesheet" attributes is necessary to link external css
+
+Selector
+--------
+
+- Single Selector (FA)
+
+	h2{
+
+ 	 }
+
+- Group Selector (,)
+
+	h2,h3{
+
+	}
+------------------------------------------------------------------------------------------------
+
+
+Day - 14
+==========
+
+- id="name" is id selector for css and # is needed to call id in css file.
+- class="name" is class selector for only css and (.) is need to call class in css file.
+- ** class allow multi value. Example: class="phone fontlg"
+
+-------------------------------------------------------------------------------------------------
+
+Day - 15
+=========
+
+- <link href="./img/fav/logo3.png" rel="icon" type="img/png" /> is the logo of the tag
+- 
+----------------------------------------------------------------------------------------------------
+
+Day - 16
+==========
+
+- <input vlaue=""/> is used to show data from databse in text box of form ( for example: updating in data)
+
+- attribute selector - [] (also called array) and attribute is needed to fill with [] like [type="text.
+- input[type="text"]{
+	
+  }
+
+- group selector - ( , )
+
+-----------------------------------------
+
+Day - 17 (7:35 PM 12/4/2023)
+===========
+
+- background-position: center; left; right; top; buttom; right top; right buttom;  left top; left buttom;
+- background-attachment: scroll(deafult); fixed;
+- background-repeat: repeat(default)j; no-repeat; repeat-x; repeat-y;
+- background: linear-gradient(red,orange); linear-gradient(gba(0, 37, 245, 1),#d400f5);
+- background-image: linear-gradient(red,blue);
+- background:linear-gradient(
+        45deg (-45deg),
+        red,
+        green,
+        blue
+    );
+
+- background-image: url(./../img/cover/bg2.jpg),linear-gradient(red,blue);
+- background-image: linear-gradient(rgba(0, 200, 245, 0.75),rgba(0, 245, 151, 0.75)),url(./../img/cover/bg2.jpg);
+
+--------------------------------------------------------------
+
+
+Day - 18 (7:32 PM 12/5/2023)
+==========
+
+  Universal Selector (*)
+  ==================
+
+- *{
+    cursor: pointer;
+  }
+
+- font format is .ttf(true time font)
+
+- In CSS, if value is 3 or more words, we need to use "" or ''.
+
+Global Font Integration (css code in html)
+=======================
+- <style>
+        at-rule
+        @identifier rule (there are nealy nine identifier)
+         	@importurl('https://fonts.googleapis.com/css2family=Akaya+Telivigala&display=swap');
+  </style>
+----------------------------------------------------------------
+
+Day - 19 (7:53 PM 12/6/2023)
+============================
+
+- color: red !important; ( !important is used in this property) and it is used to not overwrite
+
+- @import url('./l17divdesign.css') is link within css file
+
+-@font-face{
+    font-family: Stick; ( It is used as font naming in at rule)
+    src: url("./../font/Stick/Stick-Regular.ttf")
+} 
+(By downloading font fiel(.ttf) and adding in project folder. It does not need to install)
+
+- Old version CSS
+	@font-face{
+   		font-family: efg;
+    		src: local("AkayaTelivigala-Regular"),url("./../font/Akaya_Telivigala/AkayaTelivigala-Regular.ttf") format("woff")
+	}
+
+- pseudo class (:) 
+.clickme:hover{
+    text-decoration: underline;
+}
+
+
+----------------------------------------------------------------
+
+Day - 20 (8:01 PM 12/7/2023)
+
+- .clickme:visited{
+    color:red;
+  }
+ ( It is used to change link color)
+
+- padding: 10px; (custom move the text in the box)
+- padding: 10px 20px;(top&button left&right)
+
+- transition: all 2s; ( It is only right in parent slector and does not write in psudo class hover)( *all* indicate for all properties from hover selector)
+- transition: background-color 2s;
+- transition: background-color 2s, color 5s;
+
+
+-----------------------------------------------------------------------------------
+
+Day - 21 (7:57 PM 12/11/2023)
+
+- Tag to Tag 
+
+(div is parent/supporter and span is child)
+- div span{
+    color: red;
+  }
+
+- Multi Tag to Tag 
+- div span p{
+    color: red;
+  }
+
+- Multi Tag to Tag
+/* div span p{
+    color: red;
+} */
+
+/* Tag to Class */
+/* div .address{
+    color: red;
+} */
+
+/* Multi Tag to Class */
+/* div span .address{
+    color: red;
+} */
+
+/* Multi Tags to Same Class */
+div span small.name{
+    color: red;
+}
+
+* Class to Class */
+/* .bank .money{
+    color:red:
+} */
+
+/* .money .currency{
+    color: red;
+} */
+
+/* .bank .money{
+    color: red;
+} */
+
+/* Multi Class to Class */
+/* .bank .money .currency{
+    color: red;
+} */
+
+/* Class to Tag */
+.container b{
+    color: red;
+}
+
+/* Class to Multi Tag */
+/* .container b span{
+    color: red; 
+} */
+
+/* Same Class */
+/* .mobile.jpn{
+    color: red;
+}
+
+.mobile.cn{
+    color: chartreuse;
+} */
+
+/* Class to Same Class */
+.vehicle .car.jpn{
+    color: red;
+}
+
+.vehicle .car.us{
+    color: aqua;
+}
+
+/* Class to Tag by Group Selector */
+.div1 p,.div1 b{
+    color: red;
+}
+----------------------------------------------------------------------------
+
+Day - 22 (8:01 PM 12/12/2023)
+
+
+-/* Child Selector (>) */
+
+/* .div2 > p{
+    color: red;
+} */
+
+/* .div3 > i{
+    color: red;
+} */
+
+/* .div2 > b{
+    color: red;
+} */
+
+/* .div2 > .div3{
+    color: red;
+} */
+
+
+/* Sibling Selector (2 types) */
+/* (i) General Sibling Selector ( ~ )  (Work with waterfall flow*/
+/* .div4 ~ p{
+    color: red;
+} */
+
+/* (ii) Adjacent Sibling Selector  (+) */
+/*.div7 + b{
+    color: red;
+}*/
+----------------------------------------------------------------------------
+
+Day - 23 (8:01 PM 13/12/2023)
+=============================
+
+Pseudo Class (:)
+-----------------
+First chld/last Child
+----------------------
+
+.div1:first-child{
+    background-color: rebeccapurple;
+    color: red;
+}
+
+.div1:last-child{
+    background-color: blue;
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
+
+Day - 27 ()
+============
+
+- icon (internal/CDN(contact deliver network)
+
+----------------------------------------------------------------------------
+
+Day - 28 (7:36 PM 12/25/2023)
+=============================
+
+- margin ( space between the elements and not take the space between elements)
+top bottom  left right
+  margin: 20px;
+
+/*      Element true spacing false */
+    /*          0 to 1 */
+    /* opacity: 0.5; */
+    /* opacity: .3; */
+    /* opacity: 0; */
+
+/*      Element true spacing false */
+    /* visibility: hidden; */
+    /* visibility: visible; */
+
+    /*      Element true spacing false */
+    /* transform: scale(0); */
+
+    /*      Element true spacing true */
+    display: none;
+---------------------------------------------------------------------------------
+
+Day - 29 (7:03 PM 12/26/2023)
+----------------------------
+
+- 
+
+
+
+---------------------------------------------------------------------------------
+
+Day - 30 (7:41 PM 12/27/2023) ( Start of Java Script)
+
+Data type
+---------
+
+- number data type
+- string data type ( words)(use double quotes " " or single quotes ' ' or backtick ` ` )
+- boolena data type
+
+Operators
+---------
+
++ ( num + num ) -> calculation
++ ( string + string / number + string) -> concatination
+
+Comments
+--------
+
+- single line comment (//)
+- Multi line comment (/* */)
+
+
+----------------------------------------------------------------------------
+
+Day - 31 (12/28/2023)
+=====================
+
+- Variable ( var / let / const)
+
+  var/let/const variablename = value;
+
+- var fullname = "Myo Myo";
+
+- Back tick (``)
+            
+   var lady = "Honey Nway Oo"
+   console.log("We love lady"); // We love lady
+   console.log(`${lady}`); // Honey Nway Oo
+   console.log (`We love ${lady}`); // We love Honey Nway Oo
+
+- Specila Escape Characters (\)
+- document.write(`${x} ${y}`); // He's U Ba. He's my "Uncle" (It used to show the output in document)
+
+---------------------------------------------------------------------------
+
+Day - 32 (1/1/2023)
+===================
+
+- // var fullname; // oki = undefined
+  // let fullname; // oki = undefined
+  // const fullname; //error
+  // console.log(fullname);
+
+- 	    let myliststyle;
+            console.log(myliststyle); // undefined
+
+            //myliststyle = "<h1> Hellow World </h1>";
+            //myliststyle = '<h1> Hellow World </h1>';
+            //myliststyle = `<h1> Hellow World </h1>`;
+
+            console.log(myliststyle); // <h1> Hellow World </h1>
+
+            //Without Template String
+            myliststyle = "<ul>"+                              
+                                "<li>Name : "+name+"</li>"+
+                                "<li>Age : "+age+"</li>"+
+                                "<li>Job: "+job+"</li>"+
+                                "<li>City : "+city+"</li>"+
+                          "</ul>";
+
+            document.write(myliststyle); // It is show in document
+        
+            //With Template String (``)
+
+            myliststyle = `<ul>
+                                <li>Name : ${name}</li>
+                                <li>Age : ${age}</li>
+                                <li>Job: ${job}</li>
+                                <li>City : ${city}</li>
+                            </ul>`;
+            
+            document.write(myliststyle);
+
+- date and time
+
+            let date = new Date(); //class / object
+            console.log(date);  //Mon Jan 01 2024 20:49:12 GMT+0630 (Myanmar Time)
+            console.log(new Date()); //Mon Jan 01 2024 20:49:12 GMT+0630 (Myanmar Time)
+        
+            // let getdate = new Date().getDate; // class method
+            let getDate = date.getDate(); // date is defeind in the above
+            console.log(getDate); //date
+        
+            let hour = date.getHours() // Hour only
+            console.log(hour); //hour
+
+            let minute = date.getMinutes() // Minute only
+            console.log(minute); //minute
+
+            let second = date.getSeconds() // Second only
+            console.log(second); //second
+
+            // 1s = 1000ms
+            // 1 jan 1970 > uptonow
+            let time = date.getTime();
+            console.log(time); //1646621352116
+
+            let now = Date.now();
+            console.log(now); //1646621352171
+
+            //array []
+            //index number = 0 (0 to 11)
+            //  0      1       2      3     4      5      6      7      8      9      10     11
+            //['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug','sep', 'oct', 'nov', 'dec'];
+            let month = date.getMonth();
+            console.log(month); //0
+
+
+--------------------------------------------------------------------------
+
+Day - 33 (1/2/2024)
+====================
+
+ 	    //   0      1      2      3      4      5      6 
+            //['sun', 'mon', 'tue', 'wed', 'thu', 'fri','sat'];
+            let day = date.getDate();
+            console.log(day); //2
+
+            let year = date.getFullYear();
+            console.log(year); //2024
+
+            // Coordinated Universal Time -12 +6:30 -12
+            let utcyear = date.getUTCFullYear();
+            console.log(utcyear); //2024
+	   //document.getElementById("autoyear").innerText = utcyear;
+            //document.getElementById("autoyear").innerContent = utcyear;
+	        document.getElementById("autoyear").innerHTML = utcyear;
+
+
+            // m d y hr:m:s
+            let brithday = new Date('7-10-2023'); // Mon Jul 10 2023 00:00:00 GMT+0630 (Myanmar Time)
+                brithday = new Date('8-10-2023 11:30:01'); // Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('Aug 1 2023 11:35:01'); //Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('July 1 2023 11:35:01'); //Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('5/10/2023 11:35:01'); //Thu Aug 10 2023
+            console.log(brithday);
+
+            brithday.setMonth(2); //Fri Mar 10 2023 11:35:01 GMT+0630 (Myanmar Time)
+            brithday.setDate(15); //Wed Mar 15 2023 11:35:01 GMT+0630 (Myanmar Time)
+            brithday.setFullYear(2024); //Wed Mar 15 2024 11:35:01 GMT+063 (Myanmar Time)
+            
+            brithday.setHours(15); //fri Mar 15 2024 15:35:01 GMT+063 (Myanmar Time)
+            brithday.setMinutes(50); //fri Mar 15 2024 15:50:01 GMT+063 (Myanmar Time)
+            brithday.setSeconds(10); //fri Mar 15 2024 15:50:10 GMT+063 (My
+            console.log(brithday);
+
+
+Math object
+==========
+
+            let cal;
+
+            cal = 2.8; //2.8
+            cal = 2.4; //2.4
+
+            cal = Math.round(2.5); //3
+            cal = Math.round(2.3); //2
+
+            cal = Math.ceil(2.6); //3
+            cal = Math.ceil(2.4); //3
+            cal = Math.ceil(2.1); //3
+            cal = Math.ceil(2.0); //2
+
+            cal = Math.floor(2.9); //2
+            cal = Math.floor(2.4); //2
+            cal = Math.floor(2.1); //2
+            cal = Math.floor(2.0); //2
+
+            // square root
+            cal = Math.sqrt(49); //7
+
+            // pow(base, power);
+            cal = Math.pow(4,3); //64
+
+            //absoute value
+            cal = Math.abs(100); //100
+            cal = Math.abs(100.52); //100.52
+            cal = Math.abs(-100); //100
+            cal = Math.abs(-100.52); //100.52
+
+            // minimum number
+            cal = Math.min(8,2,3,6,7,2,-9,3); //-9
+
+            // maximum number
+            cal = Math.max(8,2,3,6,7,2,-9,3); //8
+
+            // Random
+            cal = Math.floor(Math.random() * 10000);
+
+            console.log(cal);
+
+
+
+
+-------------------------------------------------------------------------
+
+Day - 34 ( 1/3/2024)
+====================
+
+- Arithmetic Operator
+
+	let x = 10, 
+            y = 20, 
+            z = 30;
+
+            document.write("Addition Result = " + (x + y) + "<br>");
+            document.write("Subtraction Result = " + (x - y) + "<br>");
+            document.write("Multiplication Result = " + (x * y) + "<br>");
+            document.write("Division Result = " + (x / y) + "<br>");
+            document.write("Modulo Result = " + (x % y) + "<br>");
+
+            let p = 10;
+
+            document.write("Increment Result After Printou= " + (p++) + "<br>"); //10
+            document.write("Increment Result After Printou= " + (p++) + "<br>"); //11
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //12
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //12
+            document.write("Increment Result After Printou= " + (p++) + "<br>"); //12
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //13
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //13
+
+            let q = 10;
+
+            document.write("Increment Result Before Printout= " + (++q) + "<br>"); //11
+            document.write("Increment Result Before Printout= " + (++q) + "<br>"); //12
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //12
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //12
+            document.write("Increment Result Before Printout= " + (++q) + "<br>"); //13
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //13
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //13
+
+            let r = 10;
+
+            document.write("Decrement Result After Printout= " + (r--) + "<br>"); //10
+            document.write("Decrement Result After Printout= " + (r--) + "<br>"); //9
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //8
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //8
+            document.write("Decrement Result After Printout= " + (r--) + "<br>"); //8
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //7
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //7
+
+            let s = 10;
+
+            document.write("Decrement Result Before Printout= " + (--s) + "<br>"); //9
+            document.write("Decrement Result Before Printout= " + (--s) + "<br>"); //8
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //8
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //8
+            document.write("Decrement Result Before Printout= " + (--s) + "<br>"); //7
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //7
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //7
+
+
+Data type
+=========
+
+		//String
+                const name = "Su Prabhu";
+
+                console.log(name); //Su Prabhu
+                console.warn(typeof name); //String with Wram format
+                console.error(typeof(name)); //String with Error format
+
+
+                //Number
+                 const age = 25;
+                 console.log(age); //25
+                 console.log(typeof age); //Number 
+
+                 //Boolean (true or false)
+                 const isMarried = false;
+                 console.log(isMarried); //false
+                 console.log(typeof isMarried); //Boolean
+                 
+                 //Object (date object)
+                 var date = new Date();
+                 console.log(date);
+                 console.log(typeof date); //
+
+Object (java script)
+====================
+
+                 //Object (javascript object)
+                 //key:value
+
+                 const address = {
+                    no: "NO. 123",
+                    street: "st btw 75x76",
+                    city: "Mandalay",
+                    country: "Myanmar"
+                 };
+
+                 console.log(address);
+                 console.log(typeof address);
+
+//Array (objects)
+=================
+
+                 //Array (objects)
+                 const hobbies = ["sport", "music", "sport"];
+                 console.log(hobbies);
+                 console.log(typeof hobbies); //Object
+
+                 let text;
+                 console.log(text);
+                 console.log(typeof text); //undefined
+
+
+---------------------------------------------------------------------------
+
+Day - 35 (1/8/2024)
+==================
+
+-                 //object
+                 const car = null;
+                 console.log(car);
+                 console.log(typeof car); //Object
+
+                let phone;
+                    console.log(phone); //underfined
+                    console.log(typeof phone); //undefined
+                 phone = "iphone";
+                    console.log(phone); // iphone
+                    console.log(typeof phone); //string
+
+                const nickname = "";
+                console.log(nickname); 
+                console.log(typeof nickname); //string
+
+- type conversion
+
+
+-------------------------------------------------------------------------
+
+Day - 36 (1/9/2023)
+
+- Object Literals
+
+- Create objects
+
+- Create objects with a object
+
+- object overriding
+
+
+
+----------------------------------------------------------------------------
+
+Java Script
+===========
+
+- console.log(); ( It is used to see the result in the console)
+- window.alert(); ( It is used to show the message alert box in the window)
+- var/let/const variablename = value; (declare variable)
+  
+	Exmaple: var fullname = "Myo Myo";
+	 	 console.log(fullname); // Myo Myo
+		 console.log(`${fullname}`); // Myo Myo (using backtick ``)
+
+		 var num1 = 100;
+  		 var num2 = 200;
+        	 console.log(`${num1}+${num2}`); //100+200
+            	 console.log(`${num1}`+`${num2}`); //100200 (string)
+            	 console.log(`${num1+num2}`); // 300 (string)
+
+- override/over write
+  -------------------
+
+	- var -> override is ok ( if var is used in override again, the error cannot be faced)
+	- let -> override is ok ( if let is used in override again, the error can be faced)
+	- const -> override is not ok ( It is used in constant variable)
+
+	Example:
+
+	    var num3 = 30;
+            var num4 = 40;
+            console.log("num3 value is = " + num3); // num3 value is 30
+            console.log("num4 value is = " + num4); // num4 value is 40
+            console.log(num3+num4); //70
+            num3 = 50;
+            console.log("num3 value is = " + num3); // num3 value is 50
+
+	    let num5 = 50;
+            console.log(num5);//50
+            num5 = 500;
+            console.log(num5); //500
+	    let num5 = 600;
+            console.log(num5); // Error
+
+            const num6 = 60;
+            console.log(num6); //60
+            num6 = 600;
+            console.log(num6); // (Error) Uncaught TypeError: Assignment to constant variable.
+
+
+            // var fullname; // oki = undefined
+            // let fullname; // oki = undefined
+            // const fullname; //error
+            // console.log(fullname);
+
+
+
+- Specila Escape Characters (\)
+  -----------------------------
+
+  	- ( \ ) is used infront of escape characters to fix the error.
+
+	Example:
+
+            console.log("Hay i am working. do you see now."); //Hay i am working. do you see now.
+            console.log("Hay i am 'working'. do you see now."); //Hay i am 'working'. do you see now.
+            console.log('Hay i am "working". do you see now.'); //Hay i am "working". do you see now
+
+            console.log('Hay i am 'working'. do you see now.'); //error
+            console.log("Hay i am "worling". do you see now. "); //error
+
+            console.log("Hay i'm working and i'm reading. do you see now.");
+            console.log('He is very tall, about 6ft 4"');
+		
+
+       **   let x = 'He\'s U Ba.';
+       **   let y = "He's my \"Uncle\"";
+
+            console.log(`${x} ${y}`); // He's U Ba. He's my "Uncle" (It can be in console)
+
+
+- document.write(`${x} ${y}`); // He's U Ba. He's my "Uncle" (It used to show the output in document)
+
+- <html> codes work in the "", '', ``.
+
+	Example:
+
+	    let myliststyle;
+            console.log(myliststyle); // undefined
+
+            //myliststyle = "<h1> Hellow World </h1>";
+            //myliststyle = '<h1> Hellow World </h1>';
+            //myliststyle = `<h1> Hellow World </h1>`;
+
+            console.log(myliststyle); // <h1> Hellow World </h1>
+	    document.write(myliststyle); // Hellow World (with h1 format)
+
+
+- Without Template String
+
+	Example:
+
+		myliststyle = "<ul>"+                              
+                                "<li>Name : "+name+"</li>"+
+                                "<li>Age : "+age+"</li>"+
+                                "<li>Job: "+job+"</li>"+
+                                "<li>City : "+city+"</li>"+
+                               "</ul>";
+
+            	document.write(myliststyle);
+
+- With Template String (``)
+
+	Example:
+
+           myliststyle = `<ul>
+                                <li>Name : ${name}</li>
+                                <li>Age : ${age}</li>
+                                <li>Job: ${job}</li>
+                                <li>City : ${city}</li>
+                            </ul>`;
+            
+            document.write(myliststyle);
+
+
+
+Date Object
+===========
+
+- Date And time
+	
+	Example: 
+
+	    let date = new Date(); //class / object
+            console.log(date);  //Mon Jan 01 2024 20:49:12 GMT+0630 (Myanmar Time)
+            console.log(new Date()); //Mon Jan 01 2024 20:49:12 GMT+0630 (Myanmar Time)
+        
+            // let getdate = new Date().getDate; // class method
+            let getDate = date.getDate(); // date is defeind in the above
+            console.log(getDate); //1
+
+- Date Only (1,2,3..., 31)
+
+	Exmaple:
+
+            let date = new Date(); //class / object
+	    let getDate = date.getDate(); // date is defeind in the above
+            console.log(getDate); //date
+
+- Hour Only
+
+	Exmaple:
+
+           let date = new Date(); //class / object
+           let hour = date.getHours() // Hour only
+           console.log(hour); //hour
+
+- Minute Only
+
+	Exmaple:
+
+            let date = new Date(); //class / object
+            let minute = date.getMinutes() // Minute only
+            console.log(minute); //minute
+
+- Second Only
+
+	Exmaple:
+
+            let date = new Date(); //class / object
+            let second = date.getSeconds() // Second only
+            console.log(second); //second
+
+- Time (total second from 1) only
+
+	Exmaple:
+
+            // 1s = 1000ms
+            // 1 jan 1970 > uptonow
+            let time = date.getTime();
+            console.log(time); //1646621352116
+
+            let now = Date.now();
+            console.log(now); //1646621352171
+
+	
+- Month only
+
+	Example:
+
+            //array []
+            //index number = 0 (0 to 11)
+            //  0      1       2      3     4      5      6      7      8      9      10     11
+            //['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug','sep', 'oct', 'nov', 'dec'];
+            let month = date.getMonth();
+            console.log(month); //0
+
+
+- Day only (Sun, Mon, ..., Sat)
+
+	Example:
+
+            //   0      1      2      3      4      5      6 
+            //['sun', 'mon', 'tue', 'wed', 'thu', 'fri','sat'];
+            let day = date.getDay();
+            console.log(day); //2
+
+- Year only (2022, 2023, ...)
+
+	Exmaple:
+
+            let year = date.getFullYear();
+            console.log(year); //2024
+
+            // Coordinated Universal Time -12 +6:30 -12
+            let utcyear = date.getUTCFullYear();
+            console.log(utcyear); //2024
+
+- To get html tage by id from java script
+
+	Exmaple:
+
+	document.getElementById("autoyear").innerText = utcyear;
+	document.getElementById("autoyear").innerContent = utcyear;
+	document.getElementById("autoyear").innerHTML = utcyear;
+
+	// .innerText is the text between two html tag
+	// .innerContent is the text between two html tag
+	// .innerHTML is the text between two html tag
+
+- To take the customize date and time (m d y hr:m:s)
+
+	Example:
+
+            // m d y hr:m:s
+            let brithday = new Date('7-10-2023'); // Mon Jul 10 2023 00:00:00 GMT+0630 (Myanmar Time)
+                brithday = new Date('8-10-2023 11:30:01'); // Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('Aug 1 2023 11:35:01'); //Thu Aug 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('July 1 2023 11:35:01'); //Thu July 10 2023 11:30:01 GMT+0630 (Myanmar Time)
+                brithday = new Date('5/10/2023 11:35:01'); //Thu May 10 2023
+            console.log(brithday);
+
+- To change month, day, year, Hours, seconds, minutes in the Customize date and time
+
+	Example:
+
+            brithday.setMonth(2); //Fri Mar 10 2023 11:35:01 GMT+0630 (Myanmar Time)
+            brithday.setDate(15); //Wed Mar 15 2023 11:35:01 GMT+0630 (Myanmar Time)
+            brithday.setFullYear(2024); //Wed Mar 15 2024 11:35:01 GMT+063 (Myanmar Time)
+            
+            brithday.setHours(15); //fri Mar 15 2024 15:35:01 GMT+063 (Myanmar Time)
+            brithday.setMinutes(50); //fri Mar 15 2024 15:50:01 GMT+063 (Myanmar Time)
+            brithday.setSeconds(10); //fri Mar 15 2024 15:50:10 GMT+063 (My
+            console.log(brithday);
+
+
+Math Object
+===========
+
+- method from Math object to take complet number from decimal numbers
+
+	Math.round();
+
+	Exmaple:
+
+            let cal;
+            cal = 2.8; //2.8
+            cal = 2.4; //2.4
+            cal = Math.round(2.5); //3
+            cal = Math.round(2.3); //2
+
+            cal = Math.ceil(2.6); //3
+            cal = Math.ceil(2.4); //3
+            cal = Math.ceil(2.1); //3
+            cal = Math.ceil(2.0); //2
+
+            cal = Math.floor(2.9); //2
+            cal = Math.floor(2.4); //2
+            cal = Math.floor(2.1); //2
+            cal = Math.floor(2.0); //2
+
+            console.log(cal);
+
+- Square method from Math object
+	
+	Math.sqrt();
+
+	Exmaple:
+
+	    // square root
+            let cal = Math.sqrt(49); //7
+	    console.log(cal);
+
+- Power method from Math object
+	
+	Math.pow(base,power);
+
+	Example:
+
+            // pow(base, power);
+            let cal = Math.pow(4,3); //64
+	     console.log(cal);
+
+- Method from math object to take only positive number
+	
+	cal = Math.abs();
+
+	Example:
+
+	     //absoute value
+            let cal = Math.abs(100); //100
+            cal = Math.abs(100.52); //100.52
+            cal = Math.abs(-100); //100
+            cal = Math.abs(-100.52); //100.52
+	     console.log(cal);
+
+- Minimum and maximum method from math object
+
+	cal = Math.min();
+	cal = Math.max();
+
+	Example:
+
+            // minimum number
+            cal = Math.min(8,2,3,6,7,2,-9,3); //-9
+
+            // maximum number
+            cal = Math.max(8,2,3,6,7,2,-9,3); //8
+	     console.log(cal);
+
+- Ramdom method from math object
+
+	Math.random();
+
+	Example:
+
+	    let cal = Math.ramdom(); // 0. nak output pya tl
+            cal = Math.floor(Math.random() * 10000);
+
+            console.log(cal);
+
+
+Group variable Decalartion
+===========================
+
+	Example:
+
+            let num1 = 10;
+            let num2 = 20;
+            let num3 = 30;
+
+            let num1 = 10, 
+                num2 = 20, 
+                num3 = 30;
+
+            let num1 = 10, num2 = 20, num3 = 30;
+
+            var num1 = 10, 
+            num2 = 20, 
+            num3 = 30;
+
+            var num1 = 10, num2 = 20, num3 = 30;
+
+            const num1 = 10,
+             num2 = 20, 
+             num3 = 30;
+
+            const num1 = 10, num2 = 20, num3 = 30;
+
+            let num1, num2, num3; //can
+            var num1, num2, num3; //can
+            const num1, num2, num3; //error
+
+
+Arithmetic Operators
+====================
+
++ adding
+- subtraction
+* multiplication
+/ division
+% modulo (remainder)
+++ increment (before print (left) / after print (right))
+-- decrement (before print (left) / after print (right))
+
+	Example 
+
+            let x = 10, 
+                y = 20, 
+                z = 30;
+
+            document.write("Addition Result = " + (x + y) + "<br>");
+            document.write("Subtraction Result = " + (x - y) + "<br>");
+            document.write("Multiplication Result = " + (x * y) + "<br>");
+            document.write("Division Result = " + (x / y) + "<br>");
+            document.write("Modulo Result = " + (x % y) + "<br>");
+
+            let p = 10;
+
+            document.write("Increment Result After Printou= " + (p++) + "<br>"); //10
+            document.write("Increment Result After Printou= " + (p++) + "<br>"); //11
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //12
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //12
+            document.write("Increment Result After Printou= " + (p++) + "<br>"); //12
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //13
+            document.write("Increment Result After Printou= " + (p) + "<br>"); //13
+
+            let q = 10;
+
+            document.write("Increment Result Before Printout= " + (++q) + "<br>"); //11
+            document.write("Increment Result Before Printout= " + (++q) + "<br>"); //12
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //12
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //12
+            document.write("Increment Result Before Printout= " + (++q) + "<br>"); //13
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //13
+            document.write("Increment Result Before Printout= " + (q) + "<br>"); //13
+
+            let r = 10;
+
+            document.write("Decrement Result After Printout= " + (r--) + "<br>"); //10
+            document.write("Decrement Result After Printout= " + (r--) + "<br>"); //9
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //8
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //8
+            document.write("Decrement Result After Printout= " + (r--) + "<br>"); //8
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //7
+            document.write("Decrement Result After Printout= " + (r) + "<br>"); //7
+
+            let s = 10;
+
+            document.write("Decrement Result Before Printout= " + (--s) + "<br>"); //9
+            document.write("Decrement Result Before Printout= " + (--s) + "<br>"); //8
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //8
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //8
+            document.write("Decrement Result Before Printout= " + (--s) + "<br>"); //7
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //7
+            document.write("Decrement Result Before Printout= " + (s) + "<br>"); //7
+
+
+- Checking type, wraming and error format in the console
+
+	typeof => (keyword), typeof(variablename or value) => method
+	console.warn
+	console.error
+	
+	Example
+
+                //String
+                const name = "Su Prabhu";
+
+                console.log(name); //Su Prabhu
+                console.warn(typeof name); //String with Wram format
+                console.error(typeof(name)); //String with Error format
+
+                //Number
+                 const age = 25;
+                 console.log(age); //25
+                 console.log(typeof age); //Number 
+
+                 //Boolean (true or false)
+                 const isMarried = false;
+                 console.log(isMarried); //false
+                 console.log(typeof isMarried); //Boolean
+                 
+                 //Object (date object)
+                 var date = new Date();
+                 console.log(date);
+                 console.log(typeof date); //
+
+
+Object (javascript object) (below object datatype)
+==================================================
+
+- key:value (,)
+
+	Exmaple:
+
+                 const address = {
+                    no: "NO. 123",
+                    street: "st btw 75x76",
+                    city: "Mandalay",
+                    country: "Myanmar"
+                 };
+
+                 console.log(address);
+                 console.log(typeof address);
+
+
+
+Array (below object datatype)
+==============================
+
+	Example:
+
+                 const hobbies = ["sport", "music", "sport"];
+                 console.log(hobbies);
+                 console.log(typeof hobbies); //Object
+
+                 let text;
+                 console.log(text);
+                 console.log(typeof text); //undefined datatype
+
+
+
+- Null data type
+
+	Exmaple:
+
+                 const car = null;
+                 console.log(car);
+                 console.log(typeof car); //Object
+
+                let phone;
+                    console.log(phone); //underfined
+                    console.log(typeof phone); //undefined
+                 phone = "iphone";
+                    console.log(phone); // iphone
+                    console.log(typeof phone); //string
+
+                const nickname = "";
+                console.log(nickname); 
+                console.log(typeof nickname); //string
+
+Type conversion
+================
+
+- Length of the string data ( .length)
+
+	Example:
+
+                // String (character array)
+                let val;
+
+                val = "aung aung";
+
+                console.log(val); // aung aung
+                console.log(typeof val); // string
+                console.log(val.length); // 9 array method
+
+- type conversion number to string
+
+	Example:
+
+                // Number to string 
+                val = "20";
+                val = '20';
+                val = `20`;
+                val = String(20);
+
+                console.log(val); //20
+                console.log(typeof val); // string
+                console.log(val.length); //2
+
+- type conversion boolean to string
+
+	Example:
+
+                // Boolean to string
+                val = true; 
+                val = String(val);
+
+                console.log(val); //true
+                console.log(typeof val); // string
+                console.log(val.length); //4
+
+- type conversion date to string
+
+	Example:
+
+                //Date to string
+
+                val = "new Date()"; //new Date()
+                val = String(new Date());
+
+                console.log(val); //Mon Jan 08 2024 20:15:41 GMT+0630 (Myanmar Time)
+                console.log(typeof val); // string
+                console.log(val.length); //48
+
+- type conversion array to string
+
+	Example:
+
+
+                //Arry to string
+                val = "[1,2,3,4,5]"; // [1,2,3,4,5]
+                val = String([1,2,3,4,5]); 
+
+                console.log(val); //1,2,3,4,5
+                console.log(typeof val); // string
+                console.log(val.length); // 9
+
+- type conversion string number to number
+
+	Example:
+
+                // String to number
+                val = "20";
+                // val = Number(val);
+                val = +val;
+                val = +"20";
+
+                console.log(val); //20
+                console.log(typeof val); // number
+                console.log(val.length); //undefined
+
+                // val = Number(prompt("Enter First number"));
+                val = +prompt("Enter First number");
+
+                console.log(val); 
+                console.log(typeof val); 
+                console.log(val.length);
+
+                val = 10 + "33.34"; //1033.34
+                val = 10 + +"33.34"; //4.34
+
+                console.log(val); //4.34
+                console.log(typeof val); //number
+                console.log(val.length); //undefined
+
+	***
+		val = "50.789";
+                // val = +"50.789";
+                // val = Number(val); //50.789    50.79
+                // val = parseInt(val); //50      50.00
+                val = parseFloat(val); //50.7891  50.79
+                console.log(val); //123
+                console.log(val.toFixed(2)); //123.00
+                console.log(typeof val); //number
+                console.log(val.length); //underfined
+
+- prompt is the input box like the alert box
+
+	Example:
+
+		// val = Number(prompt("Enter First number"));
+                val = +prompt("Enter First number");
+
+
+- ** Can not make type conversion sting word to number **
+
+	Example:
+
+                val = Number("aung aung"); //NaN = Not a Number
+                val = +"aung aung"; // NaN = Not a Number
+                val = Number([1,2,3,4,6]); //NaN = Not a Number
+
+                console.log(val); //NaN
+                console.log(typeof val); // number
+                console.log(val.length); //undefined
+
+- To take custom decimal numbers in number datatype (.toFixed(decimal number))
+
+	Example:
+
+                val = 123.456789;
+                console.log(val); //123.456789
+                console.log(val.toFixed(3)); //123.467
+                console.log(typeof val); //number
+                console.log(val.length); //underfined
+                
+                val = 123;
+                console.log(val); //123
+                console.log(val.toFixed(2)); //123.00
+                console.log(typeof val); //number
+                console.log(val.length); //underfined
+
+- Type conversion boolean to number
+
+	Example:
+
+                //Boolean to Number
+                val = true;
+                val = Number(val);
+                val = +false;
+                console.log(val); //0
+                console.log(val.toFixed(2)); //0.00
+                console.log(typeof val); //number
+                console.log(val.length); //underfined
+
+- Type conversion string to array
+
+	Example:
+
+                //String to Array
+                val = "Honey Nway Oo";
+                val = Array.from(val);
+                console.log(val); //['H', 'o', 'n', 'e', 'y', ' ', 'N', 'w', 'a', 'y', ' ', 'O', 'o']
+                console.log(typeof val); //object
+                console.log(val.length); //13
+
+                // Note :: number, boolean, object can't convert to array
+
+                // val = 50;
+                // val = true;
+                // val = new Date();
+                val = {
+                    music: "rock",
+                    sport: "basketball"
+                }
+                val = Array.from(val);
+                console.log(val);
+                console.log(typeof val);
+                console.log(val.length);
+
+
+Object Literals
+================
+
+
+- console.info(student); // equal with console.log()
+
+	Example:
+
+                let students = {
+                    firstname: 'Honey',
+                    middlename: "Nway",
+                    lastname: 'Oo',
+                    age: 22
+                }
+
+                console.log(students);
+                console.info(students); // equal with console.log()
+                console.table(students)
+                console.log(typeof(students)); //object
+
+                console.log(students.firstname);
+                console.log(students.middlename);
+                console.log(students.lastname);
+                console.log(students.age);
+
+
+- creation objects within in object
+
+	Example:
+
+                const persons = {
+                    firstname: 'kyaw kyaw',
+                    lastname: 'htay lwin',
+                    age: 43,
+                    single: false,
+                    email: 'kyawkyaw@gmail.com',
+
+                    address: {
+                        street: "63st",
+                        township: "along"
+                    },
+
+                    hometown: {
+                        city: "Yangon"
+                    }
+                };
+
+                console.log(persons);
+                console.table(persons);
+
+                console.log(persons.firstname);
+                console.log(persons.age);
+                console.log(persons.single);
+                console.log(typeof(persons.single)); //boolean
+
+                console.log(persons.hometown);
+                console.log(persons.hometown.city);
+
+                console.log(persons.address);
+                console.log(persons.address.street);
+                console.log(persons.address.township);
+
+
+- creating array within a object
+
+	Example:
+
+                const persons = {
+                    firstname: 'kyaw kyaw',
+                    lastname: 'htay lwin',
+                    age: 43,
+                    single: false,
+                    email: 'kyawkyaw@gmail.com',
+
+                    address: {
+                        street: "63st",
+                        township: "alone"
+                    },
+
+                    hometown: {
+                        city: "Yangon"
+                    },
+
+                    hobbies: ["coding", "playing", "swimming", "music", "eating"]
+                };
+
+                console.log(persons.hobbies);
+                console.log(persons.hobbies[2]); //swimming
+                console.log(persons.hobbies[4]); //eating
+                console.log(persons.hobbies.length); //5
+                console.log(persons.hobbies[5-1]); //eating
+                console.log(persons.hobbies[persons.hobbies.length-1]); //eating
+
+
+
+
+Array
+=====
+
+- creating a array by using two ways (old and new)
+
+	Example:
+
+               let arrgirls = new Array("su su","lu lu","hal hla");
+                console.log(arrgirls);
+                console.table(arrgirls);
+                console.log(arrgirls.length);
+
+                const arrboys = ["mg mg", "naung naung", "kyaw gyi", "zaw zaw", 200];
+                console.info(arrboys);
+                console.table(arrboys);
+                console.info(arrboys.length);
+                console.log(typeof arrboys);
+
+                console.log(arrboys[0]);
+                console.log(arrboys[2]);
+                console.log(typeof arrboys[2]);
+                console.log(arrboys[4]);
+                console.log(typeof arrboys[4]);
+                console.log(arrboys[arrboys.length-1]);
+
+                console.log(arrboys[arrboys.length-3]); //kyaw gyi
+
+
+- creating numbers, string, boolean, arrays, objects within a array
+
+	Example:
+
+                let myarrs = ['hello', 1500, true, undefined, null, new Date(), ['red','green'], {firstname: "su su", city: "Yangon"}];;
+
+                console.log(myarrs);
+                console.log(myarrs.length);
+                console.log(myarrs[0]);
+                console.log(myarrs[5]);
+                console.log(myarrs[6]);
+                console.log(myarrs[6][1]);
+                console.log(myarrs[7]);
+                console.log(myarrs[7].firstname);
+                console.log(myarrs[7].city);
+
+
+
+- overrding in array
+
+	Example:
+
+                let colors = ['red', 'green', 'blue'];
+                    colors = ["rgba", "cmyk"];
+                console.log(colors);
+
+                let paints = []; //** At first, we need to declare array data type
+
+                paints[3] = "blue";
+                paints[0] = "white";
+                paints[1] = "black";
+                paints[2] = "pink";
+                paints[1] = "grey";
+                paints[5] = "steelblue";
+
+                console.log(paints);
+                console.log(paints.length);
+                console.log(paints[4]); //undefined
+
+	        let animals = ["cat", "dog"];
+                animals[2] = "owl";
+                animals[5] = "fish";
+                animals[3] = "tiger";
+                animals[0] = "cow";
+
+                console.log(animals);
+                console.log(animals.length);
+
+
+- Nested Array
+
+	Example:
+
+                //Nested Array
+
+                const nestarrs = [
+                    ["red", "green", "blue"],
+                    ["cmyk", "rgba", "hsla"],
+                    ["canon", "epson",["laser", "ink"]]
+                ];
+
+                console.log(nestarrs);
+                console.log(nestarrs.length);
+                console.log(nestarrs[0]);
+                console.log(nestarrs[1][1]); //rgba
+                console.log(nestarrs[2][2][1]) //ink
+
+
+String Method
+=============
+
+
+- concat (+) and string.concat(string)
+
+	Example:
+
+                let firstname = "Mya Hin";
+                let lastname = " Yee Lwin";
+
+                console.log(firstname); //Mya Hin
+                console.log(lastname); //Yee Lwin
+                console.log(firstname, lastname); //
+                console.log(firstname.length); //7
+
+                //Concat(+)
+
+                let fullname = firstname + " " + lastname;
+                console.log(fullname); //Mya Hin Yee Lwin
+
+                // =>string.concat(string)
+                console.log(firstname.concat(lastname)); //Mya Hin Yee Lwin
+                console.log(lastname.concat(firstname)); //Yee Lwin Mya Hin 
+
+
+- Append (+=)
+
+	Example:
+
+                //Append (+=)
+
+                let name1 = "Honey Nway";
+                let name2 = "Oo";
+
+                console.log(name1+name2); //Honey NwayOo
+                console.log(name1.concat(name2)); //Honey NwayOo
+                
+                name1 += name2;
+                console.log(name1); //Honey NwayOo
+
+                let num1 = 10;
+                let num2 = 20;
+
+                num1 = num1;
+                console.log(num1); //10
+
+                // num1 = num1+num2;
+                // console.log(num1); //30
+
+                num1 +=num2;
+                console.log(num1); //30
+
+- String is Character Array is js. So, the methods of array can be used in String data type.
+
+	Example:
+
+                // String is Character Array is js
+                let myfriend = "Aung Ko Ko";
+
+                console.log(myfriend); //Aung Ko Ko
+                console.log(typeof myfriend); //string
+                console.log(myfriend.length); //10
+
+                console.log(myfriend[0]); //A
+                console.log(myfriend[3]); //g
+                console.log(myfriend[4]); //space
+                console.log(typeof myfriend[3]); //string
+                console.log(myfriend[myfriend.length]); //o
+
+
+- charAt(index) method
+
+	Exanmple: 
+
+               // charAt(index)
+                const nickname = "Aung Kyaw Kyaw";
+                console.log(nickname[5]); // K
+                console.log(nickname.charAt(5)); //K
+                console.log(nickname.charAt(nickname.length-1)); //w
+
+
+- includes(string) method (maing use in search box)
+
+	Example:
+
+                // includes(string) (maing use in search box)
+                let favcolor = "My fav color is black color";
+                console.log(favcolor.includes("black")); //true
+                console.log(favcolor.includes("red")); //false
+                console.log(favcolor.includes("Black")); //false
+                console.log(favcolor.includes("BLACK")); //false
+                console.log(favcolor.includes("bla")); //true
+
+- replace(old, new) (mainly use in replace the value)
+
+	Example:
+
+                // replace(old, new) (mainly use in replace the value )
+
+                console.log(favcolor.replace("black", "red")); //My fav color is red color
+                console.log(favcolor.replace("Black", "red")); //My fav color is black color
+                console.log(favcolor.replace("BLACK", "red")); //My fav color is black color
+                console.log(favcolor.replace("bla", "red")); //My fav color is red color
+                console.log(favcolor.replace("color", "colour")); //My fav colour is black color
+
+
+- substring(start index, length) (Mainly use in showing a few words withou showing the full sentencse)
+
+	Example:
+
+                // substring(start index, length) (Mainly use in showing a few words withou showing the full sentencse)
+                
+                console.log(favcolor.substring(0, 10)+"..."); //My fav col...
+                console.log(favcolor.substring(0,10).concat('--------')); //My fav col--------
+
+
+- Change cuase (toLowerCase(), toUpperCase()) methods (mainly use in chaning the case of the words)
+
+	
+	Example:
+
+                //Change cuase (toLowerCase(), toUpperCase()) methods
+
+                console.log(favcolor.toLowerCase()); // my fav color is black color
+                console.log(favcolor.toUpperCase()); // MY FAV COLOR IS BLACK COLOR
+
+
+
+
+Array method
+============
+
+- indexof(value) method
+
+	Example:
+
+                let arrcolors = ["red", "blue", "green", "white", "pink"];
+
+                console.log(arrcolors);
+                console.log(arrcolors.length); //6
+                console.log(arrcolors[3]); //white
+
+                //indexof(value)
+                console.log(arrcolors.indexOf("blue")); //1
+                console.log(arrcolors.indexOf("white")); //3
+                console.log(arrcolors.indexOf("black")); //-1
+                console.log(arrcolors.indexOf("orange")); //-1
+
+- Array.isArray(name) method
+
+	Example:
+
+                //Array.isArray(name)
+                const name = "aung aung";
+                console.log(Array.isArray(name)); //false
+                console.log(Array.isArray(arrcolors)); //true
+
+
+- join('delimiter') method
+
+	Example:
+
+                // join('delimiter')
+                console.log(String(arrcolors)); //red,blue,green,white,pink
+                console.log(arrcolors.toString()); //red,blue,green,white,pink
+                console.log(arrcolors.join()); //red,blue,green,white,pink
+                console.log(arrcolors.join("")); //redbluegreenwhitepink
+                console.log(arrcolors.join(" ")); //red blue green white pink
+                console.log(arrcolors.join("-")); //red-blue-green-white-pink)
+
+
+- push(value) method Note:: Add new value to array (add on the end of the array)
+
+	Example:
+
+                const candys = ["red", "green", "blue", "white", "black"];
+                candys[5] = "pink";
+                candys[1] = "skyblue";
+
+                console.log(candys);
+                console.log(candys.length); //(6) ['red', 'skyblue', 'blue', 'white', 'black', 'pink']
+
+                //push(value) Note:: Add new value to array (add on the end of the array)
+                candys.push("orange");
+                candys.push("gold");
+                candys.push("violet", "gray");
+
+                console.log(candys); //['red', 'skyblue', 'blue', 'white', 'black', 'pink', 'orange', 'gold', 'violet', 'gray']0: "red"1: "skyblue"2: "blue"3: "white"4: "black"5: "pink"6: "orange"7: "gold"8: "violet"9: "gray"length: 10[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+                console.log(candys.length); //10
+
+
+- unshit(value) method Note:: Add new value to array (add on to the front of array)
+
+	Example:
+
+                //unshit(value)     Note:: Add new value to array (add on to the front of array)
+
+                candys.unshift("tomato");
+                candys.unshift("green");
+                candys.unshift("silver", "steelblue");
+                console.log(candys); //['silver', 'steelblue', 'green', 'tomato', 'red', 'skyblue', 'blue', 'white', 'black', 'pink', 'orange', 'gold', 'violet', 'gray']
+                console.log(candys.length); //14
+
+
+- shift() method Note:: Remove value & index (take of from front of array)
+
+	Example:
+
+                // shift() Note:: Remove value & index (take of from front of array)
+                candys.shift();
+                candys.shift();
+                console.log(candys); // (12) ['green', 'tomato', 'red', 'skyblue', 'blue', 'white', 'black', 'pink', 'orange', 'gold', 'violet', 'gray']
+                console.log(candys.length); //12
+
+
+- pop() method Note:: Remove value & index (take of from end of array)
+
+	Example:
+
+                // pop() Note:: Remove value & index (take of from end of array)
+                candys.pop();
+                candys.pop();
+                console.log(candys); //(10) ['green', 'tomato', 'red', 'skyblue', 'blue', 'white', 'black', 'pink', 'orange', 'gold']
+                console.log(candys.length); //10
+
+
+
+- delete (Remove only value) 
+
+	Example:
+
+                // delete (Remove only value) (delete is keyword)
+                delete candys[1];
+                delete candys[5];
+
+                console.log(candys); //(10) ['green', empty, 'red', 'skyblue', 'blue', empty, 'black', 'pink', 'orange', 'gold']
+                console.log(candys.length); //10
+
+
+
+- splice(index,length) method
+
+	Example:
+
+                // splice(index,length)
+                const paints = candys.splice(0, 5);
+                console.log(paints); //(5) ['green', empty, 'red', 'skyblue', 'blue']
+
+
+- concat() method ( use to concat the arrays
+
+
+	Example:
+
+                // concat()
+                const arr1 = ["aung aung","maung maung","tun tun","kyaw kyaw"];
+                const arr2 = ["su su","nu nu","yu yu","lue lue"];
+                const arr3 = [10,20];
+                console.log(arr1+arr2); //aung aung,maung maung,tun tun,kyaw kyawsu su,nu nu,yu yu,lue lue
+                console.log(arr1.concat(arr2)); //(8) ['aung aung', 'maung maung', 'tun tun', 'kyaw kyaw', 'su su', 'nu nu', 'yu yu', 'lue lue']
+                console.log(arr3.concat(arr2)); //(6) [10, 20, 'su su', 'nu nu', 'yu yu', 'lue lue']
+                console.log(arr1.concat(arr2,arr3)); //(10) ['aung aung', 'maung maung', 'tun tun', 'kyaw kyaw', 'su su', 'nu nu', 'yu yu', 'lue lue', 10, 20]
+
+
+- sort() method A to Z 
+
+	Example:
+
+                // sort() A to Z
+                const combinearrs = arr1.concat(arr2);
+                console.log(combinearrs);
+                console.log(combinearrs[0]); //aung aung
+                console.log(combinearrs[4]);  //su su
+
+                console.log(combinearrs.sort()); //(8) ['aung aung', 'kyaw kyaw', 'lue lue', 'maung maung', 'nu nu', 'su su', 'tun tun', 'yu yu']
+
+                console.log(combinearrs[0]); //aung aung
+                console.log(combinearrs[4]);  //nu nu
+
+
+- reverse() method Note:: reverse can't set Z to A, it's just
+
+	Example:
+
+                //reverse() Note:: reverse can't set Z to A, it's just reverse
+                console.log(combinearrs.reverse()); //(8) ['yu yu', 'tun tun', 'su su', 'nu nu', 'maung maung', 'lue lue', 'kyaw kyaw', 'aung aung']
+
+
+
+- note:: sort() , reverse() methods desont' work directly in numbers array
+
+	Example:
+
+                // note:: sort() , reverse() methods desont' work directly in numbers array
+                const arrnumbers = [200,700,300,100,30,50,150,11,10,6,8,7,9,5,600,400,250,360];
+
+                console.log(arrnumbers);
+                console.log(arrnumbers.sort()); //(18) [10, 100, 11, 150, 200, 250, 30, 300, 360, 400, 5, 50, 6, 600, 7, 700, 8, 9]
+                console.log(arrnumbers.reverse()); //(18) [9, 8, 700, 7, 600, 6, 50, 5, 400, 360, 300, 30, 250, 200, 150, 11, 100, 10]
+
+
+!---= --- = --- = --- = --- = --- = --- == --- == 
+
+Statement
+=========
+
+Comparison Operators
+====================
+
+==      equal to
+===     equal to
+!=      not equal
+!==     not equal
+>       greater than
+<       less than
+>=      grater than or equal
+<=      less than or equal
+?       statement (ternary operator)
+
+
+
+Assignment Operator
+===================
+
+=
++=
+-
+*=
+/=
+%=
+
+
+Logical Operators
+==================
+
+&&      and
+||      or
+!       not
+
+
+
+Ternary Operator (?)
+===================
+
+- c1 > c2 ? true : false;  (one condition)
+-c1 > c2 ? true : (c1==c2) ? true : false;	(more condition)
+	
+
+	Example:
+
+            const x = 100;
+            const y = 200;
+
+            console.log(x > y ? "Yes, it is true" : "No, it is false"); //No, it is false
+            console.log(x < y ? "Yes, it is true" : "No, it is false"); //Yes, it is true
+            
+            console.log(x == y ? "x is equal to y" : (x < y) ? "x is less than y" : "x is greater than y"); //x is less than y
+
+
+
+Equal to ( == and ===) and Not equal (!= snf !==) (Comparasion Operator)
+=============================================
+
+- ( == ) check only values
+- ( === ) check values and data types
+
+	Example:
+
+            const num1 = 200;
+            const num2 = 200;
+
+            // check only value
+            console.log("== equal to result = " + (num1 == num2 ? "True" : "False")); //true
+            
+            // check value and data type
+            console.log("=== equal to result = " + (num1 === num2 ? "True" : "False")); //true
+
+
+- ( != ) check only values
+- ( !== ) check values and data types
+
+	Example:
+
+            // check only value
+            console.log("!= not equal to result = " + (num1!= num2 ? "True" : "False")); //False
+
+            // check value and data type
+            console.log("!== not equal to reuslt = " + (num1!== num2 ? "True" : "False")); //True
+
+
+
+Greater than , greater than or equal , less than, less than or equal
+====================================================================
+
+	Example:
+
+            console.log("> greater than result = " + (num1 > num2 ? "True" : "False")); 
+            console.log(">= greater than result = " + (num1 >= num2 ? "True" : "False")); 
+
+            console.log("< less than result = " + (num1 < num2 ? "True" : "False")); 
+            console.log("<= less than result = " + (num1 <= num2 ? "True" : "False")); 
+
+
+
+if statement
+============
+
+-  if (condition) {
+         code to be execute;
+   }else (condition{
+	  code to be execute;
+   }
+
+
+	Example:
+
+            const idx = 30;
+
+            if(idx < 10){
+                console.log("Hello");
+            }
+
+            if(idx < 100){
+                console.log("Hi");
+            }
+
+
+            if(idx > 100){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+            if(idx > 10){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+            if(idx === "30"){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+            if(idx === "30"){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+            if(idx == "30"){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+            if(idx != "30"){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+            if(idx !== "30"){
+                console.log("Correct");
+            }else{
+                console.log("Incorrect");
+            }
+
+
+
+Nested Condition
+================
+
+	Example:
+
+            // Nested Condition
+
+            const passcode = "hifi123";
+            //  console.log(passcode.length); //7
+
+            if(passcode.length >= 5){
+                // console.log("Good Password");
+
+                if(passcode.indexOf(" ") === -1){
+                    console.log("Valide Password");
+                }else{
+                    console.log("Password length is enough ! but should not contain space");
+                }
+            }else{
+                console.log("Password must be longer");
+            }
+
+
+Switch Statement
+================
+
+-switch(statement){
+                case condition: 
+                    code to be executed;
+                    break;
+                case condition: 
+                    code to be executed;
+                    break;
+                case condition: 
+                    code to be executed;
+                    break;
+                default: 
+                    code to be executed;
+                    break;
+                
+            }
+
+	Example:
+
+            const color = "violet";
+
+            switch(color){
+                case "red":
+                    console.log("My fav color is not red");
+                    break;
+                case "white":
+                    console.log("My fav color is not white");
+                    break;
+                case "green":
+                    console.log("My fav color is not green");
+                    break;
+                case "violet":
+                    console.log("Correct!!! My fave color is violet");
+                    break;
+                default:
+                    console.log("Try again");
+                    break;
+            }
+
+            let getday = new Date().getDay();
+            console.log(getday);   //2
+
+            let today;
+            console.log(today); // undefined
+
+            switch(getday){
+                case 0:
+                    today = "Sunday";
+                    break;
+                case 1:
+                    today = "Monday";
+                    break;
+                case 2:
+                    today = "Thuesday";
+                    break;
+                case 3:
+                    today = "Wednesday";
+                    break;
+                case 4:
+                    today = "Thursday";
+                    break;
+                case 5:
+                    today = "Friday";
+                    break;
+                default:
+                    today = "Saturday";
+                    break;
+            }
+
+            console.log(today); // Thuesday
+
+Assignment Operator
+===================
+
+	Example:
+
+            let p = 10;
+            let q = 50;
+            console.log(p);
+            console.log(q);
+            
+            // p = q;
+            // console.log(p); //50
+
+            // p = p + q;
+            // console.log(p); //60
+
+            // p += q;
+            // console.log(p); //60
+
+            // p -= q;
+            // console.log(p); //-40
+
+            // p *= q;
+            // console.log(p); //500
+
+            // p /= q;
+            // console.log(p); //5
+
+            // p %= q;
+            // console.log(p); //0
+
+
+Logical Operator
+================
+
+	Example:
+
+            //Logical Operator
+            const username = prompt("Enter your name");
+            const password = prompt("Enter your password");
+
+            console.log(username,password);
+            console.log(typeof username, typeof password); // string string
+
+            if(username === "aungaung" && password === "12345"){
+                console.log("Welcome Aung Aung");
+            }else{
+                console.log("Try again");
+            }
+
+            // if(username === "aungaung" || password === "12345"){
+            //     console.log("Welcome Aung Aung");
+            // }else{
+            //     console.log("Wrong username or password");
+            // }
+
+
+
+Looping
+=======
+
+** var = global variable
+** let = local variable
+
+1. For Loop
+============
+
+-                 //1. For loop
+
+                    //  start   end
+                // for(statement1;statement2;statement3){
+                //     code to be executed;
+                // }
+
+	Example:
+
+                for (var i = 0; i < 5; i++){
+                    console.log(i);
+                }
+                
+                console.log("hifi");
+                console.log("i outside value is = ", i );
+
+                let j = 10;
+
+                for (j; j <= 20; j++){
+                    console.log(j);
+                }
+                
+                console.log("j outside value is = ", j );
+                
+
+                //error     value = 0 /error
+                // for (const p = 0; p < 3; p++){
+                //     console.log(p);
+                // }
+
+                for (var k = 0; k <= 10; k++){
+                    if (k === 5){
+                        console.log("5 is my fav number");
+                    }
+                    console.log("K value is = ", k);
+                }
+
+                console.log("K outside value is = ", k); //K outside value is =  11
+
+
+                for (var s = 10; s > 0; s--){
+                    console.log(s);
+                }
+
+                console.log("S outside value is = " + s);
+
+
+- usage of break;
+
+               for (var m = 0; m <= 10; m++){
+                    // console.log(m);
+                    if (m == 2){
+                        console.log(m + " is my fav number");
+                        break;
+                    }
+                    console.log(m);
+                }
+
+                console.log("M outside value is = ", m);
+
+
+
+- usage of continue;
+                for (var p = 0; p < 10; p++){
+                    // console.log(p);
+
+                    if(p === 2){
+                        console.log(p + " is my fav number");
+                        continue;
+                    }
+
+                    console.log(p);
+                }
+
+                console.log("P outside value is = " + m)
+
+
+
+Exercise of looping
+===================
+
+
+                //Exercise
+
+                let myarrs = ["red", "green", "blue", "pink", "steelblue"];
+                console.log(myarrs[3]);
+                console.log(myarrs[4]);
+
+                for (var w = 0; w < myarrs.length; w++){
+                    // console.log(w);
+
+                    console.log(myarrs[w]);
+                }
+
+
+
+                const people = [
+                        {name: "Aung Aung", age: 25},
+                        {name: "Aye Aye", age: 30},
+                        {name: "Yu Yu", age: 25}
+                ]
+
+                // console.log(people[1].name);  
+                
+                for (var q = 0; q < people.length; q++){
+                    console.log("Name = " + people[q].name + " Age = " + people[q].age);
+                }
+
+
+For in loop
+===========
+
+- for(key/idx in obj/array){
+      code to be executed;
+  }
+
+
+	Example:
+
+                // For In loop
+
+                // for(key/idx in obj/array){
+                //     code to be executed;
+                // }
+
+                let students = {
+                    name: "Aung Aung",
+                    city: "Mandalay",
+                    parent: "U Mya",
+                    phone: "09-123456789"
+                };
+
+                // console.log(students);
+                // console.log(students.name);
+
+                for(key in students){
+                    // console.log(key);
+                    // console.log(students.key); // undefined:
+
+                    console.log(students[key]); // bracket notation
+                }
+
+
+                const ourteams = ["kyaw kyaw", "aung aung", "zaw zaw", "maung maung"];
+                // console.log(ourteams);
+
+                for(idx in ourteams){
+                    // console.log(idx);    // 0 to 3 string
+
+                    console.log(ourteams[idx]);
+                }
+
+
+
+                const greeting = "Hello";
+
+                // console.log(greeting[0]); //H
+
+                for (idx in greeting){
+                    // console.log(idx);
+
+                    console.log(greeting[idx]);
+                }
+
+
+For of loop
+===========
+
+- It is used for array
+- for(value of array){
+    code to exectued;
+  }
+
+
+	Example:
+
+
+            const girls = ["su su", "lu lu", "yu yu", "aye mi san"];
+
+            for (girl of girls){
+               console.log(girl);
+            }
+
+
+            const thanks = "Hifi";
+
+            for(val of thanks){
+                console.log(val);
+            }
+
+While Loop
+==========
+
+-                 start
+
+                while(condition){
+                        Before Printout
+                    code to be excuted;
+                        After Printout;
+                }
+
+
+	Example:
+
+                let b = 0;
+
+                while(b < 10){
+                    console.log("Number b value is = " + b);
+                    b++;
+                }
+
+                console.log("b outside value is = " + b);
+
+
+                let c = 0;
+
+                while(c < 10){
+                    c++;
+                    console.log("Number c value is = " + c);
+                }
+
+                console.log("c outside value is =" + c);
+
+
+                const paints = ["red", "green", "blue", "white", "black"];
+
+                let num = 0;
+
+                while(num < paints.length){
+                    // console.log(num);
+                    console.log("My paint color is = " + paints[num]);
+                    num++;
+                }
+
+                const laptop = [
+                    {
+                        cpu: "core i7",
+                        ram: "8gb",
+                        hdd:"1tb"
+                    }
+                ];
+
+                console.log(laptop);
+                console.log(laptop[0].cpu);
+
+                let idxnum = 0;
+
+                while(idxnum < laptop.length){
+                    // console.log(idxnum);
+                    console.log("cup is = " + laptop[idxnum].cpu + " ram is = " + laptop[idxnum].ram + " hdd is = " + laptop[idxnum].hdd);
+                    idxnum++;
+                }
+
+
+Do While loop
+==============
+
+-  do{
+       Before Printout
+       code to be exectued;
+       After Printout
+   }while()
+
+
+	Example:
+
+                let n = 0;
+
+                do{
+                    console.log("N vlaue is = " + n);
+                    n++;
+                }while(n < 10)
+
+
+                let g = 0;
+
+                do{
+                    g++;
+                    console.log("N vlaue is = " + g);
+                }while(g < 10)
+
+
+                let init = 0;
+
+                do{
+                    console.log("My fav color is " + colors[init]);
+                    init++;
+                }while(init < colors.length)
+
+
+
+forEach Loop
+============
+
+- mainarrys.forEach(function(value,index,array){
+          code to be executed
+  });
+
+	
+	Example:
+
+                const candycolors = ["red", "green", "blue", "orange", "white", "black"];
+                console.log(candycolors[2]);
+
+                candycolors.forEach(function(candycolor,idx,arr){
+                    // console.log(candycolor);
+                    // console.log(idx);
+                    // console.log(arr);
+                    // console.log(candycolors);
+
+                    console.log("Index number is = " + idx + " value is= " + candycolor);
+                });
+
+
+
+Map loop
+========
+
+- mainarray.map(function(value,indx,array){
+      code to be executed;
+ })
+
+
+
+	Example:
+
+                const visitors = ["sai sai", "aung aung", "naung naung", "su su", "yu yu", "nandar"]
+                
+                visitors.forEach(function(visitor){
+                    //console.log(visitor);
+                    console.log("forEach Result = " + visitor);
+                });
+
+                visitors.map(function(visitor){
+                    //console.log(visitor);
+                    console.log("map Result = " + visitor);
+                });
+
+                const doctors = visitors.map(function(visitor){
+                    // console.log(visitor);
+                    // console.log(`Dr.${visitor}`);
+
+                    return `Dr.${visitor}`;
+                });
+
+                console.log(doctors); //(6) ['Dr.sai sai', 'Dr.aung aung', 'Dr.naung naung', 'Dr.su su', 'Dr.yu yu', 'Dr.nandar']
+
+                const docts = visitors.forEach(function(visitor){
+                    // console.log(visitor);
+                    // console.log(`Dr.${visitor}`);
+
+                    return `Dr.${visitor}`;
+                });
+
+                console.log(docts); //undefined
+
+                // Note:: Map is produced the return vlaue with array if it is initialized into variable.
+                // Note:: forEach can not initialized into variable.
+                // Note:: Map can be used to change the value inside array.
+
+
+Filter loop
+===========
+
+- mainarray.filter(function(){
+      code to be executed;
+  });
+
+
+	Example:
+
+                const ages = [23,34,56,80,13,12,18,17,10,19,60,25,21,30,14];
+                // console.log(ages);
+
+                const getover18 = ages.filter(function(age){
+                    // console.log(age);
+                    // console.log(age > 18); //boolean
+
+                    return age > 18;
+                });
+
+                console.log(getover18); //(9) [23, 34, 56, 80, 19, 60, 25, 21, 30]
+
+                const getover20 = ages.filter(function(age){
+                    return age >= 20;
+                });
+
+                console.log(getover20); //[23, 34, 56, 80, 60, 25, 21, 30]
+
+                //Note:: Filter loop produce the filter value wiith array if it is initialized into variable.
+                //Note:: If the valuee are filtered by comparator operators within console.log();, it produce boolean value.
+
+
+
+
+
+
+Database
+=========
+(i)tmp Storage
+(ii)per Storage
+
+
+            Cookies                 LocalStorage                    SessionStorage
+Storage     4kb                     5-10-20Mb(browser dependent)    5mb
+Scope       all windows             all windows                     Private to tag
+delete      when user delete/timer  when user delete                on tab close
+storage     browser/server          browser                         browser
+
+
+
+LocalStorage
+=============
+
+            // => Create
+            // localStorage.setItem("name", "aung aung");
+            // localStorage.setItem("age", 20);
+            // localStorage.setItem("city", "Yangon");
+
+            // => Update
+            //Method1
+            // localStorage.setItem("name", "kyaw kyaw");
+
+            //Method2
+            // localStorage.city = "Mandalay";
+
+
+            // => Read
+
+            // Method 1
+            // const getname = localStorage.name;
+            // const getage = localStorage.age;
+            // const getcity = localStorage.city;
+
+            // console.log(getname,getage,getcity);
+            // console.log(typeof getname, typeof getage, typeof getcity);
+
+            // Method 2
+            // const name = localStorage.getItem("name");
+            // const age = localStorage.getItem("age");
+            // const city = localStorage.getItem("city");
+
+            // console.log(name,age,city);
+            // console.log(typeof name, typeof age, typeof city);
+
+
+            // => Delete
+
+            // Method 1 ( Single Delete)
+            // localStorage.removeItem('name');
+            // localStorage.removeItem('age');
+            // localStorage.removeItem('city');
+
+            // Method 2 ( All Delete)
+            // localStorage.clear();
+
+
+
+Session Storage
+===============
+
+            // => Create
+            // sessionStorage.setItem("name", "aung aung");
+            // sessionStorage.setItem("age", 20);
+            // sessionStorage.setItem("city", "Yangon");
+
+            // => Update
+            //Method1
+            // sessionStorage.setItem("name", "kyaw kyaw");
+
+            //Method2
+            // sessionStorage.city = "Mandalay";
+
+
+            // => Read
+
+            // Method 1
+            // const getname = sessionStorage.name;
+            // const getage = sessionStorage.age;
+            // const getcity = sessionStorage.city;
+
+            // console.log(getname,getage,getcity);
+            // console.log(typeof getname, typeof getage, typeof getcity);
+
+            // Method 2
+            // const name = sessionStorage.getItem("name");
+            // const age = sessionStorage.getItem("age");
+            // const city = sessionStorage.getItem("city");
+
+            // console.log(name,age,city);
+            // console.log(typeof name, typeof age, typeof city);
+
+
+            // => Delete
+
+            // Method 1 ( Single Delete)
+            // sessionStorage.removeItem('name');
+            // sessionStorage.removeItem('age');
+            // sessionStorage.removeItem('city');
+
+            // Method 2 ( All Delete)
+            // sessionStorage.clear();
+
+
+
+Function
+========
+
+
+                (A) Default function | system function
+                (B) User Define Function
+                        (1) Regular Function
+                                    (i) Manual Function
+                                    (ii) Parameter Function
+                                            (a) Single Parameter Function
+                                            (b) Multi Parameter Function
+                        (2) Arrow Function (ECMA 6)
+                                    (i) Manual Function
+                                    (ii) Parameter Function
+                                            (a) Single Parameter Function
+                                            (b) Multi Parameter Function
+                        (3) Generator Function
+
+
+
+ -              function name(){
+                    code to be executed;
+                }
+
+                name(); // function invoke | function recall
+
+
+
+                (i) Manual Function
+		     ================
+
+		Example:
+
+                function greet(){
+                    console.log("Hello Myanmar");
+                    console.log("Hello Thailand");
+                    console.log("Hello Sirlanka");
+                }
+
+                greet();
+                greet();
+                greet();
+
+                // Note :: Fuction doesn't work with waterfall
+                // Note :: Function can invoke or recall from anywhere
+
+                hello(); // Hellow Yangon  // Hello Bago
+
+                function hello(){
+                    console.log("Hello Yangon");
+                }
+
+                // Hellow Yangon  // Hello Bago
+
+                hello();
+
+                function hello(){
+                    console.log("Hello Bagon");
+                }
+
+                hello(); // Hello Bago
+
+                function funone(){
+                    console.log("I am function one");
+                }
+
+                function funtwo(){
+                    funone();
+                    console.log("I am function two");
+                    funone();
+                }
+
+                function funthree(){
+                    funtwo();
+                    funone();
+                }
+
+                funthree();   // 1 2 1 1
+
+
+Return
+=======
+	
+	Example:
+
+                function funfour(){
+                    console.log(4);
+                }
+
+                function funfive(){
+                    console.log(5);
+                }
+
+                funfour();  //4
+                funfour();  //5
+
+                function funsix(){
+
+                    const num4 = funfour();
+                    const num5 = funfour();
+
+                    console.log(num4);  //undefined
+                    console.log(num5);  //undefined
+
+                    const total = num4 + num5;
+                    console.log(total);     //NaN
+
+                }
+
+                funsix();
+
+                
+                function funseven(){
+                    // return 7;
+                    // return 8;
+                    // return 9;
+
+                    var p = 50;
+                    var q = 100;
+
+                    // var result = p + q;
+                    // return result;
+
+                    if(p > q){
+                        return true;
+                    }else{
+                        return false;
+                    }
+
+                }
+
+                console.log(funseven());
+
+                //Note:: Return is used if the function is reused again in other function
+                //Note:: Return is turn one time
+
+
+                function funeight(){
+                    // const msg1 = "hi";
+                    // const msg2 = "nay kaung lar ?";
+                    // const msg3 = "sarr pee pee lar ?";
+                    // const msg4 = "mee lar lar ?";
+
+                    // return "block"; //block
+
+                    //do
+                    // const num8 = 800;
+                    // return num8; //800
+
+                    //do
+                    // var num8;
+                    // return num8 = 8000; //8000
+
+                    //don't
+                    // return var num8; //error
+
+                    //don't
+                    // return var num8 = 8000000; //error
+
+                }
+                
+                console.log(funeight());
+
+
+                function funnine(){
+                    return 90;
+                }
+
+                function funten(){
+                    const x = 100;
+                    return x;
+                }
+                
+                console.log(funnine());     //90
+                console.log(funten());      //100
+
+                function funeleven(){
+                    const num1 = funnine();
+                    const num2 = funten();
+
+                    // console.log(num1);   //90 
+                    // console.log(num2);   //100
+
+                    const total = num1 + num2;
+                    console.log(total);     //190
+                }
+
+                funeleven();
+
+//------------------------------------------
+
+Parameter function
+==================
+
+(a) Single parameter function
+    =========================
+
+	
+	Example:
+
+                function myfun1(city){
+                    console.log("Hello " + city);
+                }
+
+                myfun1(); //Hello undefined
+                myfun1("Yangon"); //Hello Yangon
+                myfun1("Mandalay"); // Hello Mandalay
+                myfun1("Mandalay", "Bago"); //Hello Mandalay
+                myfun1(500);  //Hello 500
+
+
+                //Default Parameter
+                function myfun2(country = "Indonesia"){
+                    console.log(`Hello ${country}`);
+                }
+
+                myfun2(); //Hello Indonesia
+                myfun2("Myanmar"); // Hello Myanmar
+                myfun2("Thailand"); // Hello Thailand
+                myfun2(); //Hello Indonesia
+
+
+
+(b) Multi Parameter function
+    ========================
+
+	Example:
+
+                function multifun1(x,y,z){
+                    console.log(`x value is ${x} , y value is ${y} , z value is ${z}`);
+                }
+
+                multifun1();    //x value is undefined , y value is undefined , z value is undefined
+                multifun1(10); //x value is 10 , y value is undefined , z value is undefined
+                multifun1(10,20); //x value is 10 , y value is 20 , z value is undefined
+                multifun1(10,20,30); //x value is 10 , y value is 20 , z value is 30
+
+                multifun1(10,20,30,40,50);  // x value is 10 , y value is 20 , z value is 30
+
+                function multifun2(x=1,y=2,z=3){
+                    console.log(`x value is ${x} , y value is ${y} , z value is ${z}`);
+                }
+
+                multifun2(); //x value is 1 , y value is 2 , z value is 3
+                multifun2(100,200,300); //x value is 100 , y value is 200 , z value is 300
+                multifun2(100,200); //x value is 100 , y value is 200 , z value is 3
+                // multifun2(100,,200); // error
+
+
+                function multifun3(x=1,y=2,z=3){
+                    const result = x+y+z;
+                    return result;
+                }
+
+                console.log(multifun3());   //6
+                console.log(multifun3(10,20)); //33
+
+
+Nameless Function
+==================
+
+	Example:
+
+                // Nameless Function
+
+                const infofun = function (name, color){
+                    console.log(`My name is ${name}. I  love ${color} color.`)
+                };
+
+                infofun("aung aung", "black");
+
+
+
+
+(2) Arrow function
+==================
+
+	Example:
+
+               // Regular function
+
+                const regfun1 = function(){
+                    const num1 = 100;
+                    return num1;
+                }
+
+                console.log("This is regfun1 " + regfun1()); //This is regfun1 100
+
+
+                // (2) Arrow Function
+
+                const arrfun1 = ()=>{
+                    const num1 = 200;
+
+ 
+                    return num1;
+                }
+
+                console.log("This is arrfun1 " + arrfun1()); //This is arrfun1 200
+
+(ii) Parameter function
+========================
+
+(a) Single Parameter function
+==============================
+
+	Example:
+
+                const arrfun2 = (num1)=> {
+                    return num1;
+                }
+
+                console.log("This is arrfun2 " + arrfun2(20));
+
+
+                const arrfun3 = num1=>{
+                    return num1;
+                }
+                //Note:: if one parameter, () cannot be written
+                console.log("This is arrfun3 " + arrfun3(30));
+
+
+                const arrfun4 = num1=>num1+50;  //Note:: if we write in one line, we don't need to write return;
+                console.log("This is arrfun4 " + arrfun4(40));
+
+
+(b) Multi Parameter function
+==============================
+
+	Example:
+
+                const multiarrfun1 = (num1,num2)=>{
+                    const result = num1 + num2;
+                    return result;
+                }
+                
+                console.log("this is multiarrfun1 " + multiarrfun1());  //NaN
+                console.log("this is multiarrfun1 " + multiarrfun1(10,20)); //30
+
+                const multiarrfun2 = (num1=100,num2=200)=>{
+                    const result = num1+num2;
+                    return result;
+                }
+
+                console.log("this is multifun2 = " + multiarrfun2()); //300
+                console.log("this is multifun2 = " + multiarrfun2(300,500)); //800
+                console.log("this is multifun2 = " + multiarrfun2(50)); //250
+
+                const multiarrfun3 = (num1=100,num2=200)=>num1+num2;
+                
+                console.log("this is multifun3 = " + multiarrfun3(80,20)); //this is multifun3 = 100
+
+
+
+Generator Function
+==================
+
+	Example:
+
+            function test1(){
+                return 10;
+            }
+
+            console.log(test1()); //10
+            console.log(test1()); //10
+            console.log(test1()); //10
+
+            function test2(){
+                var x = 1;
+                x++;
+                return x;
+            }
+
+            console.log(test2()); //2
+            console.log(test2()); //2
+            console.log(test2()); //2
+
+            var y = 1;
+            function test3(){
+                y++;
+                return y;
+            }
+
+            console.log(test3()); //2
+            console.log(test3()); //3
+            console.log(test3()); //4
+
+            // (3) Generator Function
+                        // yield
+                        // next()
+
+            function* genfun(){
+                // yield 1;
+
+                yield 1;
+                yield 2;
+                yield 3;
+            }
+
+            // console.log(genfun()); //genfun {<suspended>}
+            // console.log(genfun().next()); //{value: 1, done: false}
+            // console.log(genfun().next().value); //1
+            // console.log(genfun().next().value); //1
+            // console.log(genfun().next().value); //1
+
+            const getgenfun = genfun();
+            // console.log(getgenfun); //genfun {<suspended>}
+            // console.log(getgenfun.next()); //{value: 1, done: false}
+            // console.log(getgenfun.next().value); //1            2
+            // console.log(getgenfun.next().value); //underfined   3
+            // console.log(getgenfun.next().value); //underfined
+            // console.log(getgenfun.next().value); //underfined
+
+
+Callback function
+=================
+
+	Example:
+
+                // Callback function
+                console.log(arrnumbers.sort(function(a,b){
+                    // return a-b;  // 0 to 1,2,3.....
+                    return b-a; //3 2 1 to 1 2 3
+                }));
+
+
+
+Scope of variables
+==================
+
+                // Global Scope
+
+                const name = "aung aung";
+                    //   name = "kyaw kyaw"; //error
+                // const name = "su su"; //error
+                console.log(name);
+
+                let city = "Mandalay";
+                    city = "Yangon";
+                // let city = "Bago"; //error
+                console.log(city);
+
+                var country = "Myanmar";
+                    country = "Thailand";
+                var country = "Srilanka";
+                console.log(country);
+
+                //--------------------------------------------------------
+
+                // loop
+
+                // for(cnst x=0; x < 10; x++){
+                //         console.log(b); //0 to 9
+                // }
+
+                for(let b=0; b < 10; b++){
+                    console.log(b); // 0 to 0
+                }
+
+                // console.log("b outside value = ", b); //error b is not defined
+
+
+                for(var d = 0; d < 10; d++){
+                    console.log(d); // 0 to 9
+                }
+
+                console.log("d outside value = ",d); // d outside value = 10
+
+
+                const num1 = 0;
+                let num2 = 0;
+                var num3 = 0;
+
+                // for(num1; num1 < 10; num1++){
+                    // console.log(num1); //0 error
+                // }
+
+
+                for(num2; num2 < 10; num2++){
+                    console.log(num2); // 0 9
+                }
+
+                console.log("num2 outside value = ", num2); //num2 outside value = 10
+
+
+                for(num3; num3 < 10; num3++){
+                    console.log(num3); //0 9
+                }
+
+                console.log("num3 outside value = ", num3); // num3 outside value = 10
+
+
+
+                // New Declare
+
+                const num4 = 1;
+                let num5 = 2;
+                var num6 = 3;
+
+                // for(const num4; num4 < 10; num4++){
+                    // console.log(num4); //0 error
+                // }
+
+                for(let num5 = 0; num5 < 10; num5++){
+                    console.log(num5); // 0 9
+                }
+
+                console.log("num5 outside value = ", num5); // num5 outside value = 2
+
+
+                for(var num6 = 0; num6 < 10; num6++){
+                    console.log(num6); //0 9
+                }
+
+                console.log("num6 outside value = ", num6); // num6 outside value =  10
+
+                //----------------------------------------------------
+
+
+                // Object
+
+                const customers = {
+                    fullname: "zayar kyaw",
+                    age: 30,
+                    phone: "09124556"
+                };
+
+                console.log(customers);   
+                console.log(customers.fullname);
+                console.log(customers.age);
+                console.log(customers.phone);
+
+                customers.city = "Mandalay";
+                console.log(customers);
+
+                customers.fullname = "Ko Zayar Thaw";
+                console.log(customers);
+
+                //Error
+
+                // customers = {
+                //     citizen: "Myanmar"
+                // };
+
+                // console.log(customers);
+
+
+                let members = {
+                    fullname: "su su",
+                    age: 18,
+                    phone: "09948342"
+                }
+
+                console.log(members);
+                console.log(members.fullname, members.age, members.phone);
+
+                members.city = "Mandalay";
+                console.log(members);
+
+                members.age = 20;
+                console.log(members);
+
+                members = {
+                    citizen: "Myanmar"
+                }
+
+                console.log(members);
+                console.log(members.fullname,members.age,members.phone); //undefined undefined undefined
+
+                var students = {
+                    fullname: "aung aung",
+                    age: 16,
+                    phone: "09392834"
+                }
+
+                console.log(students);
+                console.log(students.fullname, students.age, students.phone);
+
+                students.city = "Bago";
+                console.log(students);
+
+                students.age = 17;
+                console.log(students);
+
+                students = {
+                    citizen: "Myanmar"
+                }
+
+                console.log(students);
+                console.log(students.fullname, students.age, students.phone); //undefined undefined undefined
+
+        // ----------------------------------------------------------------------
+
+                // Array
+
+                const arrcolors = ["red", "green", "blue"];
+                console.log(arrcolors);
+                
+                arrcolors[0] = "violet";
+                console.log(arrcolors);
+
+                arrcolors[3] = "yellow";
+                console.log(arrcolors);
+
+                arrcolors.push("black");
+                console.log(arrcolors);
+
+                // Error
+                // arrcolors = ["black", "white"];
+                // console.log(arrcolors);
+
+                let arrgirls = ["su su", "nu nu", "yu yu"];
+                console.log(arrgirls);
+
+                arrgirls[0] = "pu pu";
+                console.log(arrgirls);
+
+                arrgirls[3] = "ku ku";
+                console.log(arrgirls);
+
+                arrgirls.push("ka ka");
+                console.log(arrgirls);
+
+
+                arrgirls = ["aye aye" , "nway nwya", "swae swae"]
+                console.log(arrgirls);
+
+
+                let arrboys = ["aung aung", "naung naung", "nyaung nyaung"];
+                console.log(arrboys);
+
+                arrboys[0] = "kyaw kyaw";
+                console.log(arrboys);
+
+                arrboys[3] = "naw naw";
+                console.log(arrboys);
+
+                arrboys.push("thar hla");
+                console.log(arrboys);
+
+
+                arrboys = ["u ba" , "u hla", "u mya"]
+                console.log(arrboys);
+
+
+
+            // -----------------------------------------------------------------
+
+                // Function Scope
+                // Function
+
+                const number1 = 10;
+                let number2 = 20;
+                var number3 = 30;
+
+                function funone(){
+                    console.log(number1+number2+number3);
+                }
+
+                funone(); // 60
+
+                function funtwo(){
+                    const x = 100;
+                    let y = 200;
+                    let z = 300;
+                    console.log(x+y+z);
+                }
+
+                funtwo(); //600
+
+                console.log("Global Scope Varible number 1 = ", number1); // Global Scope Varible number 1 =  10
+                console.log("Global Scope Varible number 2 = ", number2); // Global Scope Varible number 1 =  20
+                console.log("Global Scope Varible number 3 = ", number3); // Global Scope Varible number 1 =  30
+                
+                // console.log("Funcion Scope Varible x = ", x); // x is not  undefined
+                // console.log("Funcion Scope Varible y = ", y); // y is not  undefined
+                // console.log("Funcion Scope Varible z = ", z); // z is not  undefined
+
+                
+                //Override
+
+                const p = 1;
+                let q = 2;
+                var r = 3; 
+
+                function funthree(){
+                    // p = 10; //error
+                    q = 20;
+                    r = 30;
+
+                    // console.log("From Function, p value is by const = ",p); // Assignment to constant
+                    console.log("From Function, q value is by let = ",q); //20
+                    console.log("From Function, r value is by var = ",r); //30
+                }
+
+                funthree();
+
+                console.log("From outside, q value is by let = ",q); //20
+                console.log("From outside, r value is by var = ",r); //30
+                
+
+                // New Declare
+
+                const a = 10;
+                let b = 20;
+                var c = 30;
+
+                function funfour(){
+                    
+                    const a = 100;
+                    let b = 200;
+                    var c = 300;
+
+                    console.log("From Function, a value is by const = ",a); // 100
+                    console.log("From Function, b value is by let = ",b); //200
+                    console.log("From Function, c value is by var = ",c); //300
+                }
+
+                funfour();
+
+                    console.log("From outside, a value is by const = ",a); // 10
+                    console.log("From outside, b value is by let = ",b); //20
+                    console.log("From outside, c value is by var = ",c); //30
+
+
+DOM Clock
+==========
+
+	Code:
+
+<DOCTYPE html>
+    <html>
+        <head>
+                <title>DOM Clock</title>
+                <style type="text/css">
+                    body {
+                        height: 100vh;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                </style>
+        </head>
+        <body>
+
+            <!-- DOM = document object model -->
+
+            <h3 id="display">00 : 00 : 00 PM Sunday</h3>
+
+      
+            <script type="text/javascript">
+                
+                const display = document.getElementById("display");
+                const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+                // console.log(days);
+                // console.log(days[3]);
+                // console.log(days[4]);
+
+                function startclock(){
+
+                    let getdate = new Date();
+                    // console.log(getdate);
+
+                    let gethours = getdate.getHours();
+                    // console.log(gethours);
+
+                    let getminutes = getdate.getMinutes();
+                    // console.log(getminutes);
+
+                    let getseconds = getdate.getSeconds();
+                    // console.log(getseconds);
+
+                    let getday = getdate.getDay();
+                    // console.log(getday);
+
+                    let getampm;
+
+                    switch(gethours < 12){
+                        case true:
+                            getampm = "AM";
+                            break;
+                        case false:
+                            getampm = "PM";
+                            gethours = gethours - 12;
+                            break;
+                    }
+
+                    let setclock = `${gethours} : ${getminutes} : ${getseconds} ${getampm} ${days[getday]}`;
+                    // console.log(setclock);
+
+                    display.textContent = setclock;
+                }
+
+
+                // setInterval(callbackfunction,timer/ms);
+                // 1s = 1000
+
+                // Note:: setInterval is used if the proces doesn't want to stop.
+                startclock(); //Note:: It is used that 00 : 00 : 00 PM Sunday is not shown at start.
+                setInterval(startclock,1000);
+
+    
+    
+            </script>
+        </body>
+    </html>       
+                
+
+
+
+
+
+
+----------------------------------------------------------------------------
+
+Pseudo Class(:)
+===============
+
+Hover
+------
+
+.clickme:hover{
+   	 text-decoration: underline;
+}
+
+Visited
+-------
+
+.clickme:visited{
+    color:red;
+  }
+
+Last-Child/First-child
+-----------------------
+
+.div1:first-child{
+    background-color: rebeccapurple;
+    color: red;
+}
+
+.div1:last-child{
+    background-color: blue;
+    color: aqua;
+}
+
+First-of-type / Last-of-type ( first and last of the same type)
+--------------
+
+.div1:first-of-type{
+    background-color: rgb(30, 182, 142);
+    color: rgb(30, 7, 184);
+}
+
+.div1:last-of-type{
+    background-color: aquamarine;
+    color: chocolate;
+}
+
+Nth-child ( n = times of the child)
+-----------
+
+.div1:nth-child(8){
+    background-color: antiquewhite;
+    color: chartreuse;
+}
+
+
+
+-  if(condition){
+        code to be execute;
+   }else if(condition){
+        code to be execute;
+   }else if(condition){
+        code to be execute;
+   }else{
+        code to be execute;
+   }
+
+	
+	Example:
+
+            const j = 1000;
+            const k = 1000;
+
+            if(j > k){
+                console.log("Yes, j is greater than k");
+            }else if(j === k){
+                console.log("j is equal to k");
+            }else{
+                console.log("No, j is less than k");
+            }
+
+
+
+
+
+
+---------------------------------------------------------------------------
+
+
+Combinator of CSS
+=================
+
+- Tag to Tag
+- Multi Tag to Tag
+- Tag to Class
+- Multi Tag to Class
+- Multi Tags to Same Class
+- Class to Class
+- Multi Class to Class
+- Class to Tag
+- Class to Multi Tag
+- Same Class
+- Class To Same Class
+- Class to Tag By group Selector
+- Child Selector (>)
+- Sibling Selector (2 types)
+  (i) General Sibling Selector ( ~ ) ( work with warterfall flow)
+  (ii) Adjacent Sibling Selector (+) ( work with waterfall flow) (kap nal tl sibling ko yu tl)
+- 
+
+
+----------------------------------------------------------------------------
+
+CSS propertities and values
+===========================
+
+- color: white; #6beb34; rgba(151, 35, 103); rgba(27, 183, 217, 0.77); hsla(236, 86%, 53%, 1);
+- font-size: 20px;
+- text-align: left; right; center; justify;
+- text-decoration:underline; ,  text-decoration: overline; , text-decoration: line-through; , text-decoration: none;
+- letter-spacing: 3px;
+= line-height: 40px; , line-height: 4; , line-height: 400%;
+
+	shawdow = h v b c (horizontal, vertical, blur, color)
+	
+- text-shadow: 50px 0px 3px red; , text-shadow: -50px 0px 3px red; , text-shadow: 0px 5px 5px red; , text-shadow: 0px -5px 5px red; , text-shadow: -5px -5px 5px rgb(175, 117, 16, 0.8); , text-shadow: 5px 0 3px red, 0px 5px 3px yellow, 0px -5px 5px blueviolet;
+
+- border-style: solid; , border-style: double; , border-style: dotted; , border-style: dashed; , border-style: inset; , border-style: outset;
+- border-radius: 150px; , border-radius: 10%; , border-radius: 10px 50px; , border-radius: 20px 50px 100px 200px;
+ ** Border-radiou flow is clock-wise direction***
+- border: 5px dashed #4287f5;
+- border-style: dashed;
+- border-color: orange;
+
+- background-color: orange; , background: yellow;
+- background: solid color; image; radient color;
+*** if soild color is wanted to use, background-color property must be used.** (DataLanad Standard)
+- background-image: url(./../img/fav/logo4.png);
+- background-position: center; left; right; top; buttom; right top; right buttom;  left top; left buttom;
+- background-attachment: scroll(deafult); fixed;
+- background-repeat: repeat(default)j; no-repeat; repeat-x; repeat-y;
+- background: linear-gradient(red,orange); linear-gradient(gba(0, 37, 245, 1),#d400f5);
+- background-image: linear-gradient(red,blue);
+- background:linear-gradient(
+        45deg (-45deg),
+        red,
+        green,
+        blue
+    );
+
+- background-image: url(./../img/cover/bg2.jpg),linear-gradient(red,blue);
+- background-image: linear-gradient(rgba(0, 200, 245, 0.75),rgba(0, 245, 151, 0.75)),url(./../img/cover/bg2.jpg);7:29 PM 12/5/2023
+
+- width: 100px;
+- height: 100px;
+
+- list-style-type: none; , list-style: none;
+- list-style-type: circle; square; decimal; decimal-leading-zero;
+
+- list-style-position: inside; outside;(default) (bullect position)
+
+- *{
+    cursor: pointer;
+  }
+
+- font-family: Arial; "Time New Roman";
+- font-family: Century,Arial,"Time New Roman"; (Giving font with priety)
+
+- color: red !important;
+- -@font-face{
+    font-family: Stick; ( It is used as font naming in at rule)
+    src: url("./../font/Stick/Stick-Regular.ttf")
+} (By downloading font fiel(.ttf) and adding in project folder)
+- @font-face{
+    font-family: abc;
+    src: url("./../font/Stick/Stick-Regular.ttf")
+  }
+
+- pseudo class (:)
+	.clickme:hover{
+   	 text-decoration: underline;
+	}
+
+- .clickme:visited{
+    color:red;
+  }
+
+- padding: 10px;
+- padding: 10px 20px;(top&button left&right)
+- padding-top: 10px;
+- padding-right: 10px;
+- padding-bottom: 10px;
+- padding-left: 10px;
+
+- transition: all 2s;
+- transition: background-color 2s;
+- transition: background-color 2s, color 5s;
+
+- margin: 20px; ( all top right bottom left)
+- margin: 20px 4opx; (top buttom & left right)
+- margin: 10px 30px 50px 100px; (top right buttom left)
+- margin-right: 5px;
+- margin-top: 40px;
+- margin-bottom: 100px;
+- margin-left: 20px;
+
+- opacity: 0; 1;(Element true spacing false)
+- visibility: hidden;(Element true spacing false)
+- visibility: visible;(Element true spacing false)
+- transform: scale(0);(Element true spacing false)
+- display: none;(Element true spacing true)
+
+- float: left; right; /*take the element*/
+- clear: both;

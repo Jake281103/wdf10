@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS intro</title>
+    </head>
+    <body>
+        <p>hay</p>
+
+
+        <script type="text/javascript">
+            
+            console.log("aung aung");
+            console.log('kyaw kyaw');
+            console.log(`su su`);
+
+            console.log(500);
+            console.log('600');
+            console.log("700");
+            console.log(`800`);
+
+            console.log("aung aung", "zaw zaw", "maung maung");
+            console.log(100, 200, 300);
+            console.log("aung aung", 500);
+
+            console.log(true);
+            console.log(false);
+
+            console.log(10+10); //20
+            console.log(10+'40'); //1040
+            console.log('20' + "50"); //2050
+            console.log("aung aung" + 10); //aung aung10
+
+            console.log(true+true); //2
+            console.log('true'+'true'); //truetrue
+            console.log(true+false); //1
+            console.log(true+50); //51
+            console.log(false+50); //50
+            console.log('true'+20); //true20
+            console.log(true+"aung aung"); //trueaungaung
+            console.log("zaw zaw" + false); //zaw zawfalse
+
+            //Comments
+
+            /* single line comment (//)
+            Multi line comment*/
+
+            // window.alert("Hello Myanmar");
+            // window.alert("Save Myanmar");
+            // window.alert("Are you ready to learn JS");
+
+            // Variable ( var / let / const)
+            // var/let/const variablename = value;
+
+            var fullname = "Myo Myo";
+            console.log("Myo Myo");
+            console.log("Myo Myo");
+            console.log("fullname"); //fullname
+            console.log('fullname'); //fullname
+            console.log(`fullname`); //fullname
+
+            console.log(fullname); //Myo Myo
+            console.log(fullname); //Myo Myo
+
+            // window.alert(fullname);
+
+            console.log("My friend name is fullname"); // My friend name is fullname
+            console.log('My friend name is fullname'); // My friend name is fullname
+            console.log(`My friend name is fullname`); // My friend name is fullname
+            
+            // Concatenate (+)
+            console.log("My friend name is " + fullname); // My friend name is Myo Myo
+            console.log('My friend name is ' + fullname); // My friend name is Myo Myo
+        
+            //Back tick (``)
+            
+            var lady = "Honey Nway Oo"
+            console.log("We love lady"); // We love lady
+            console.log(`${lady}`); // Honey Nway Oo
+            console.log (`We love ${lady}`); // We love Honey Nway Oo
+
+            var num1 = 100;
+            var num2 = 200;
+            console.log(num1);
+            console.log(num2);
+            console.log(num1,num1);// 100 200
+            console.log(num1+num2); // 300
+
+            console.log("num1" + "num2"); //num1num2
+            console.log('num1+num2'); //num1+num2
+            console.log(`num1+num2`); //num1+num2
+
+            console.log(`${num1}+${num2}`); //100+200
+            console.log(`${num1}`+`${num2}`); //1002000 (string)
+            console.log(`${num1+num2}`); // 300 (string)
+
+            //Override or Overwrite
+
+            var num3 = 30;
+            var num4 = 40;
+
+            console.log("num3 value is = " + num3); // num3 value is 30
+            console.log("num4 value is = " + num4); // num4 value is 40
+            console.log(num3+num4); //70
+
+            num3 = 50;
+            console.log("num3 value is = " + num3); // num3 value is 50
+            console.log(num3+num4); //90
+
+            let num5 = 50;
+            console.log(num5);//50
+
+            num5 = 500;
+            console.log(num5); //500
+
+            num5 = 5000;
+            console.log(num5); // 5000
+
+
+            const num6 = 60;
+            console.log(num6); //60
+
+            // num6 = 600;
+            // console.log(num6); //Uncaught TypeError: Assignment to constant variable.
+
+            
+            //Specila Escape Characters (\)
+
+            console.log("Hay i am working. do you see now.");
+            console.log("Hay i am 'working'. do you see now.");
+            console.log('Hay i am "working". do you see now.');
+
+            // console.log('Hay i am 'working'. do you see now.'); //error
+            // console.log("Hay i am "worling". do you see now. "); //error
+
+            console.log("Hay i'm working and i'm reading. do you see now.");
+            console.log('He is very tall, about 6ft 4"');
+
+
+            let x = 'He\'s U Ba.';
+            let y = "He's my \"Uncle\"";
+
+            console.log(`${x} ${y}`); // He's U Ba. He's my "Uncle" (It can be in console)
+
+            document.write(`${x} ${y}`); // He's U Ba. He's my "Uncle" (It can be in document)
+
+        </script>
+
+
+    </body>
+</html>
+
+<!-- 
+number datatype
+string datatype
+
++ (num+num = calculate) (string+string / num+string = concat) 
+
+`` = backtick
+
+-->
+
+<!-- 
+    Variable Name
+
+    we can use
+    letter, number, _ , $
+
+    var firstname = "Tin Htut";  <-recommend to use
+    var FirstName
+    var first_name
+    var $firstname
+    var name1                     <-recommend to use
+
+    we can't use
+    var first name
+    var first-name
+    var @firstname
+    var 2name
+ -->

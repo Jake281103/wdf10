@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.div1{
+    width: 600px;
+    height: 200px;
+    background-color: orange;
+
+/*  top bottom  left right*/
+    /* margin: 20px; */
+
+/* top buttom & left right */
+    /* margin: 20px 50px; */
+
+/* top right buttom left */
+    /* margin: 10px 30px 50px 100px; */
+
+    margin-right: 5px;
+    margin-top: 40px;
+
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.div2{
+    width: 600px;
+    height: 200px;
+    background-color: orange;
+
+    margin: 20px;
+}
+
+.div2 .bank,.div2 .conin{
+    background-color: rgb(53, 193, 81);
+    color: rgb(24, 58, 208);
+
+    display: block;
+}
+
+.display1{
+    width: 300px;
+    height: 100px;
+    background-color: silver;
+    border: 2px solid orange;
+
+    /*      Element true spacing false */
+    /*          0 to 1 */
+    /* opacity: 0.5; */
+    /* opacity: .3; */
+    /* opacity: 0; */
+
+    /*      Element true spacing false */
+    /* visibility: hidden; */
+    /* visibility: visible; */
+
+    /*      Element true spacing false */
+    /* transform: scale(0); */
+
+    /*      Element true spacing true */
+    display: none;
+}
+
+.display2{
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid silver;
+}

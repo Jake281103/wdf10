@@ -1,0 +1,100 @@
+<DOCTYPE html>
+    <html>
+        <head>
+                <title>Regular Function</title>
+        </head>
+        <body>
+  
+            <script type="text/javascript">
+                  
+                // (A) Default function | system function
+                // (B) User Define Function
+                //         (1) Regular Function
+                //                     (i) Manual Function
+                //                     (ii) Parameter Function
+                //                             (a) Single Parameter Function
+                //                             (b) Multi Parameter Function
+                //         (2) Arrow Function (ECMA 6)
+                //                     (i) Manual Function
+                //                     (ii) Parameter Function
+                //                             (a) Single Parameter Function
+                //                             (b) Multi Parameter Function
+                //         (3) Generator Function
+
+               // Regular function
+
+                const regfun1 = function(){
+                    const num1 = 100;
+                    return num1;
+                }
+
+                console.log("This is regfun1 " + regfun1()); //This is regfun1 100
+
+
+                // (2) Arrow Function
+
+                const arrfun1 = ()=>{
+                    const num1 = 200;
+
+ 
+                    return num1;
+                }
+
+                console.log("This is arrfun1 " + arrfun1()); //This is arrfun1 200
+
+
+                // (ii) Parameter function
+                //          (a) Single Parameter function
+
+                const arrfun2 = (num1)=> {
+                    return num1;
+                }
+
+                console.log("This is arrfun2 " + arrfun2(20));
+
+
+                const arrfun3 = num1=>{
+                    return num1;
+                }
+                //Note:: if one parameter, () cannot be written
+                console.log("This is arrfun3 " + arrfun3(30));
+
+
+                const arrfun4 = num1=>num1+50;  //Note:: if we write in one line, we don't need to write return;
+                console.log("This is arrfun4 " + arrfun4(40));
+
+
+                // (ii) Parameter function
+                //          (b) Multi Parameter function
+
+                const multiarrfun1 = (num1,num2)=>{
+                    const result = num1 + num2;
+                    return result;
+                }
+                
+                console.log("this is multiarrfun1 " + multiarrfun1());  //NaN
+                console.log("this is multiarrfun1 " + multiarrfun1(10,20)); //30
+
+                const multiarrfun2 = (num1=100,num2=200)=>{
+                    const result = num1+num2;
+                    return result;
+                }
+
+                console.log("this is multifun2 = " + multiarrfun2()); //300
+                console.log("this is multifun2 = " + multiarrfun2(300,500)); //800
+                console.log("this is multifun2 = " + multiarrfun2(50)); //250
+
+                const multiarrfun3 = (num1=100,num2=200)=>num1+num2;
+                
+                console.log("this is multifun3 = " + multiarrfun3(80,20)); //this is multifun3 = 100
+
+
+
+            </script>
+        </body>
+    </html>
+
+        
+        
+        
+            

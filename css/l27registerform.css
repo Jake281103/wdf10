@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+:root{
+    --wcc: #f4f4f4;
+    --gyc: #777;
+    --dbc: darkblue;
+    --occ: orange;
+    --gnc: green;
+}
+
+*{
+    box-sizing: border-box;/*to make the size of input box */
+    /* font-family: 'Stick', sans-serif; */
+}
+
+body{
+    font-family: 'Stick', sans-serif;
+    /* viewport height(vh) */
+    /* viewport weight(wh) */
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* horizontal center*/
+    align-items: center; /* vertical center*/
+}
+
+.container{
+    width: 480px;
+    background-color: var(--wcc);
+    /* h v b c */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.container .form{
+    /* top buttom & left right */
+    padding: 30px 40px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    display: block;
+    color: var(--gyc);
+    margin-bottom: 5px;
+}
+
+.form-group .form-contorl{
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.form-group .form-contorl::placeholder{
+    color: rgba(0,0,0,0.3)
+}
+
+.form .btn{
+    width: 100%;
+    background-color: var(--dbc);
+    color: #fff;
+    font-size: 16px;
+    font-family: inherit;
+    border: 0;
+    border-radius: 4px;
+
+    padding: 10px;
+
+    cursor: pointer;
+    
+    transition: background-color .5s;
+}
+
+.form .btn:hover{
+    background-color: var(--occ); /* for hovering pointer */
+}
+
+.form .btn:active{
+    background-color: var(--gnc); /* for pressing the pointer */
+}

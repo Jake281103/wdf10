@@ -1,0 +1,79 @@
+<DOCTYPE html>
+    <html>
+        <head>
+                <title>DOM Clock</title>
+                <style type="text/css">
+                    body {
+                        height: 100vh;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                </style>
+        </head>
+        <body>
+
+            <!-- DOM = document object model -->
+
+            <h3 id="display">00 : 00 : 00 PM Sunday</h3>
+
+      
+            <script type="text/javascript">
+                
+                const display = document.getElementById("display");
+                const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+                // console.log(days);
+                // console.log(days[3]);
+                // console.log(days[4]);
+
+                function startclock(){
+
+                    let getdate = new Date();
+                    // console.log(getdate);
+
+                    let gethours = getdate.getHours();
+                    // console.log(gethours);
+
+                    let getminutes = getdate.getMinutes();
+                    // console.log(getminutes);
+
+                    let getseconds = getdate.getSeconds();
+                    // console.log(getseconds);
+
+                    let getday = getdate.getDay();
+                    // console.log(getday);
+
+                    let getampm;
+
+                    switch(gethours < 12){
+                        case true:
+                            getampm = "AM";
+                            break;
+                        case false:
+                            getampm = "PM";
+                            gethours = gethours - 12;
+                            break;
+                    }
+
+                    let setclock = `${gethours} : ${getminutes} : ${getseconds} ${getampm} ${days[getday]}`;
+                    // console.log(setclock);
+
+                    display.textContent = setclock;
+                }
+
+
+                // setInterval(callbackfunction,timer/ms);
+                // 1s = 1000
+
+                // Note:: setInterval is used if the proces doesn't want to stop.
+                startclock(); //Note:: It is used that 00 : 00 : 00 PM Sunday is not shown at start.
+                setInterval(startclock,1000); //Note:: In setInverval() function, callback function doesn't need paratheses() to call again and again.
+
+    
+    
+            </script>
+        </body>
+    </html>       
+                

@@ -1,0 +1,130 @@
+/* Font Integrate */
+/* (i) Local Machine Integrate */
+/* (ii) Global Integration or Project Folder Integration */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap'); */
+@import url('./l17divdesign.css')
+/* Universal Selector */
+
+*{
+   cursor: pointer; 
+}
+
+.p2{
+    color: red !important;
+}
+
+/*  (i) Local Machine Integration */
+/* body{
+    font-family: Arial;
+} */
+
+/* 
+.p1{
+    font-family: Arial;
+}
+
+.p2{
+    font-family: "Time New Roman"
+}
+
+.p3{
+    font-family: Century,Arial,"Time New Roman";
+} 
+*/
+
+/* (ii) Global Integration or Project Folder Integration         */
+
+/* body{
+    font-family: Stick,sans-serif;
+} */
+
+@font-face{
+    font-family: abc;
+    src: url("./../font/Stick/Stick-Regular.ttf")
+}
+@font-face{
+    font-family: efg;
+    src: local("AkayaTelivigala-Regular"),url("./../font/Akaya_Telivigala/AkayaTelivigala-Regular.ttf") format("woff")
+}
+
+.p1,.p4{
+    font-family: abc,sans-serif;
+}
+.p2{
+    font-family: efg;
+    color: blue !important;
+}
+.p3{
+    font-family: "Akaya Telivigala";
+}
+a{
+    text-decoration: none;
+}
+
+.clickme{
+    text-decoration: none;
+    color: green;
+}
+
+/* pseudo class (:) */
+
+
+.clickme:visited{
+    color:red;
+}
+.clickme:hover{
+    color: orange;
+    text-decoration: underline;
+    border: 2px solid red;
+    font-size: 30px;
+}
+
+.menutext{
+    font-family: Arial;
+    background-color: green;
+    text-decoration: underline;
+    color: #fff;
+
+
+    /* padding: 10px;  */
+/*       top&button  left&right*/
+    /* padding: 10px 20px; */
+
+
+    /*      top  right button left*/
+    /* padding: 10px 20px 30px 40px; clock-wise direction */
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    border-radius: 10px;
+
+    /* transition: all 2s; */
+    /* transition: background-color 2s; */
+    transition: background-color 2s, color 5s;
+}
+
+.menutext:hover{
+    background-color: orange;
+    color: blue;
+}
+
+.imgdesign{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+
+    transition: all 1s;
+}
+
+.imgdesign:hover{
+    width: 100px;
+    height: 100px;
+}
+
+
+

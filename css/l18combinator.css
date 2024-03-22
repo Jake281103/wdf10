@@ -1,0 +1,108 @@
+/* Tag to Tag */
+
+/*div is parent/supporter and span is child */
+/* div span{
+    color: red;
+} */
+
+
+/* Multi Tag to Tag */
+/* div span p{
+    color: red;
+} */
+
+/* Tag to Class */
+/* div .address{
+    color: red;
+} */
+
+/* Multi Tag to Class */
+/* div span .address{
+    color: red;
+} */
+
+/* Multi Tags to Same Class */
+/* div span small.name{
+    color: red;
+} */
+
+/* Class to Class */
+/* .bank .money{
+    color:red:
+} */
+
+/* .money .currency{
+    color: red;
+} */
+
+/* .bank .money{
+    color: red;
+} */
+
+/* Multi Class to Class */
+/* .bank .money .currency{
+    color: red;
+} */
+
+/* Class to Tag */
+/* .container b{
+    color: red;
+} */
+
+/* Class to Multi Tag */
+/* .container b span{
+    color: red; 
+} */
+
+/* Same Class */
+/* .mobile.jpn{
+    color: red;
+}
+
+.mobile.cn{
+    color: chartreuse;
+} */
+
+/* Class to Same Class */
+.vehicle .car.jpn{
+    color: red;
+}
+
+.vehicle .car.us{
+    color: aqua;
+}
+
+/* Class to Tag by Group Selector */
+/* .div1 p,.div1 b{
+    color: red;
+} */
+
+/* Child Selector (>) */
+
+/* .div2 > p{
+    color: red;
+} */
+
+/* .div3 > i{
+    color: red;
+} */
+
+/* .div2 > b{
+    color: red;
+} */
+
+/* .div2 > .div3{
+    color: red;
+} */
+
+/* Sibling Selector (2 types) */
+/* (i) General Sibling Selector ( ~ )  (Work with waterfall flow*/
+/* .div4 ~ p{
+    color: red;
+} */
+
+/* (ii) Adjacent Sibling Selector  (+) (kap nal tl sibling ko yu tl) */
+.div7 + b{
+    color: red;
+}
+

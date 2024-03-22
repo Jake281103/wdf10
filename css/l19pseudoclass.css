@@ -1,0 +1,40 @@
+/* Pesudo Class (:) */
+
+.div1{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+}
+
+/* .div1:first-child{
+    background-color: rebeccapurple;
+    color: red;
+} */
+
+/* .div1:first-of-type{
+    background-color: rgb(30, 182, 142);
+    color: rgb(30, 7, 184);
+} */
+
+/* .div1:last-child{
+    background-color: blue;
+    color: aqua;
+} */
+
+/* .div1:last-of-type{
+    background-color: aquamarine;
+    color: chocolate;
+} */
+
+/* .div1:nth-child(8){
+    background-color: antiquewhite;
+    color: chartreuse;
+} */
+
+/* Oridinary Number
+1st
+2nd
+3rd
+4th
+5.....nth */
+
